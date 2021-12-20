@@ -21,19 +21,8 @@ export default function Home() {
 
   return (
     <>
-          <Head>
-
-              <!-- Global site tag (gtag.js) - Google Analytics -->
-              <script async src="https://www.googletagmanager.com/gtag/js?id=G-C3XF4ZD1CQ"></script>
-              <script>
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-
-                  gtag('config', 'G-C3XF4ZD1CQ');
-              </script>
-
-        <title>Home | Clínica Odontológica - Laís Coneglian Dutra</title>
+       <Head>
+       <title>Home | Clínica Odontológica - Laís Coneglian Dutra</title>
         <meta
           name="description"
           content="Clínica Odontológica em Lençóis Paulista com Harmonização Facial - dra. Laís Coneglian Dutra"
