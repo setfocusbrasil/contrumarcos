@@ -1,0 +1,32 @@
+.headerPage {
+  width: 100%;
+  background-color: #287da1;
+  margin-top: 84px;
+  padding: 60px 0;
+
+  h2 {
+    font-size: var(--s24);
+    color: var(--blue-main);
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: var(--s64);
+    margin-top: 5px;
+    color: var(--white);
+    font-family: "Zen Antique", Georgia, "Times New Roman", Times, serif;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerPage {
+    h2 {
+      font-size: var(--s20);
+    }
+    h1 {
+      font-size: var(--s42);
+    }
+  }
+}
