@@ -21,8 +21,8 @@ export default function Home() {
 
   return (
     <>
-       <Head>
-       <title>Home | Clínica Odontológica - Laís Coneglian Dutra</title>
+      <Head>
+        <title>Home | Clínica Odontológica - Laís Coneglian Dutra</title>
         <meta
           name="description"
           content="Clínica Odontológica em Lençóis Paulista com Harmonização Facial - dra. Laís Coneglian Dutra"
