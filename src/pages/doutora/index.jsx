@@ -4,6 +4,7 @@ import { HeaderPage } from "../../components/HeaderPage";
 import { Footer } from "../../components/Footer";
 import { Button } from "../../components/Button";
 import { MyImage } from "../../components/MyImage";
+import * as gtag from "../../lib/gtag";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import styles from "./styles.module.scss";
@@ -12,6 +13,15 @@ export default function Doutora() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
+  function agendarConsulta() {
+    gtag.event({
+      action: "agendar_consulta_doutora",
+      category: "marcar_consulta_whatsapp_doutora",
+      label: "Agendar Consulta pelo Whatsapp",
+      value: "Marcar consulta",
+    });
+  }
 
   return (
     <>
@@ -128,7 +138,12 @@ export default function Doutora() {
             <p>
               Agende um horário ou fique a vontade para tirar qualquer dúvidas.
             </p>
-            <Button link="/">AGENDAR</Button>
+            <Button
+              onClick={agendarConsulta}
+              link="https://wa.me/5514981472951"
+            >
+              AGENDAR
+            </Button>
           </div>
         </div>
       </section>

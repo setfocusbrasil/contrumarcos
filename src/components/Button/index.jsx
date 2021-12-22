@@ -6,13 +6,17 @@ export const Button = ({ children, link = "/", dark = false, ...props }) => {
     <>
       {!dark ? (
         <Link href={link}>
-          <a className={styles.button} {...props}>
+          <a className={styles.button} target="_blank" {...props}>
             {children}
           </a>
         </Link>
       ) : (
         <Link href={link}>
-          <a className={`${styles.button} ${styles.buttonDark}`} {...props}>
+          <a
+            className={`${styles.button} ${styles.buttonDark}`}
+            target="_blank"
+            {...props}
+          >
             {children}
           </a>
         </Link>

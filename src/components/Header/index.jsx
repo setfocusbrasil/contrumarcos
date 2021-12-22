@@ -2,6 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "../Button";
+import * as gtag from "../../lib/gtag";
 import styles from "./styles.module.scss";
 
 export const Header = () => {
@@ -9,6 +10,25 @@ export const Header = () => {
 
   function closeMenu() {
     setShowMenu(false);
+  }
+
+  function agendarConsulta() {
+    gtag.event({
+      action: "agendar_consulta_cabeçalho",
+      category: "marcar_consulta_whatsapp_cabeçalho",
+      label: "Agendar Consulta pelo Whatsapp",
+      value: "Marcar consulta",
+    });
+  }
+
+  function agendarConsultaMenu() {
+    setShowMenu(false);
+    gtag.event({
+      action: "agendar_consulta_cabeçalho",
+      category: "marcar_consulta_whatsapp_cabeçalho",
+      label: "Agendar Consulta pelo Whatsapp",
+      value: "Marcar consulta",
+    });
   }
 
   return (
@@ -57,7 +77,13 @@ export const Header = () => {
           </nav>
 
           <div className={styles.btnAgendar}>
-            <Button dark>Agendar Consulta</Button>
+            <Button
+              dark
+              onClick={agendarConsulta}
+              link="https://wa.me/5514981472951"
+            >
+              Agendar Consulta
+            </Button>
           </div>
         </div>
 
@@ -94,9 +120,9 @@ export const Header = () => {
                 <a>Contato</a>
               </Link>
             </li>
-            <li onClick={closeMenu}>
-              <Link href="/">
-                <a>Agendar Consulta</a>
+            <li onClick={agendarConsultaMenu}>
+              <Link href="https://wa.me/5514981472951">
+                <a target="_blank">Agendar Consulta</a>
               </Link>
             </li>
           </ul>

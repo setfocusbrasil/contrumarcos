@@ -68,7 +68,10 @@ export default function Home() {
               data-aos="fade-up"
               data-aos-delay="500"
             >
-              <Button onClick={agendarConsulta}>
+              <Button
+                onClick={agendarConsulta}
+                link="https://wa.me/5514981472951"
+              >
                 <img src="/icons/whatsIcon.svg" alt="whatsapp" />
                 Agendar Consulta
               </Button>
