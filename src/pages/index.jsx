@@ -8,6 +8,7 @@ import { MyImage } from "../components/MyImage";
 import { Title } from "../components/Title";
 import { Footer } from "../components/Footer";
 import { depositions } from "../data/depositions.js";
+import * as gtag from "../lib/gtag";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import styles from "../styles/Home.module.scss";
@@ -18,6 +19,15 @@ export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
+  function agendarConsulta() {
+    gtag.event({
+      action: "agendar_consulta",
+      category: "marcar_consulta_whatsapp",
+      label: "Agendar Consulta pelo Whatsapp",
+      value: "Marcar consulta",
+    });
+  }
 
   return (
     <>
@@ -58,7 +68,7 @@ export default function Home() {
               data-aos="fade-up"
               data-aos-delay="500"
             >
-              <Button>
+              <Button onClick={agendarConsulta}>
                 <img src="/icons/whatsIcon.svg" alt="whatsapp" />
                 Agendar Consulta
               </Button>
