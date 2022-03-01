@@ -55,13 +55,11 @@ export default function Home() {
         <div className={`mainContainer ${styles.heroWrap}`}>
           <section className={styles.leftContent}>
             <h1 className="title" data-aos="fade-up">
-              <strong>Um Sorriso</strong> é a coisa mais bonita que você pode
-              usar.
+              A Harmonia da Face Começa pelo <strong>Sorriso</strong>
             </h1>
             <p data-aos="fade-up" data-aos-delay="200">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              officia et quos repudiandae quisquam consequuntur totam,
-              architecto corporis tempore eaque?
+              Nossa missão é entregar saúde aliada a estética para proporcionar
+              máxima satisfação e bem-estar aos pacientes.
             </p>
             <div
               className={styles.btnWrap}
@@ -75,9 +73,9 @@ export default function Home() {
                 <img src="/icons/whatsIcon.svg" alt="whatsapp" />
                 Agendar Consulta
               </Button>
-              <span>
+              {/* <span>
                 Ou nos ligue: <strong>(14) 3264-9999</strong>
-              </span>
+              </span> */}
             </div>
           </section>
 
@@ -87,7 +85,7 @@ export default function Home() {
             data-aos-delay="400"
           >
             <MyImage
-              src="/images/hero.jpg"
+              src="/images/heroLais.jpg"
               alt="Paciente Sorrindo na clínica"
               width="440"
               height="510"
@@ -106,50 +104,144 @@ export default function Home() {
             <MyImage
               src="/images/fachada.jpg"
               alt="Paciente Sorrindo na clínica"
-              width="541"
-              height="626"
+              width="540"
+              height="500"
               left
             />
           </div>
 
           <div className={styles.aboutRightContent} data-aos="fade-up">
             <h3>
-              <strong>Única Clínica</strong> Odotonlógica com Harmonização
-              Facial em Lençóis Paulista.
+              Clínica odontológica focada em estética do sorriso e Harmonização
+              facial em <strong>Lençóis Paulista.</strong>
             </h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse,
-              ipsa corrupti eaque tenetur, impedit laboriosam placeat aliquid,
-              nemo quaerat veniam nostrum aliquam inventore a dignissimos vel
-              rerum? Consectetur mollitia excepturi aperiam magni officiis nobis
-              nulla ut repellendus distinctio perferendis consequatur, ad unde
-              voluptas molestias deleniti odio provident rem voluptatum
-              blanditiis?
+              Clínica que trouxe um conceito único e inovador para Lençóis
+              Paulista unindo saúde e estética, do sorriso e da face. Com o
+              atendimento individualizado e personalizado para proporcionar o
+              maior conforto e privacidade para os pacientes.
             </p>
-            <Button link="/clinica">Ver Mais</Button>
+            <Button link="/clinica" target="_self">
+              Ver Mais
+            </Button>
           </div>
         </div>
       </section>
 
       <section className={styles.treatments}>
         <div data-aos="fade-down">
-          <Title title="Tratamentos" subtitle="Nossos Serviços" />
+          <Title title="Tratamentos" subtitle="Principais serviços" />
         </div>
 
         <div className={`${styles.treatmentsWrap} mainContainer`}>
           <div className={styles.treatmentItem} data-aos="zoom-in">
             <div className={styles.icon}>
+              <img src="/icons/clareamento.svg" alt="Clareamento Dental" />
+            </div>
+            <h3>Clareamento Dental</h3>
+            <p>
+              Um dos serviços mais procurados por ser considerado um tratamento
+              pouco invasivo, muito seguro e com resultados incríveis para os
+              dentes.
+            </p>
+            <Link href="/tratamentos">
+              <a>Ler mais</a>
+            </Link>
+          </div>
+          <div className={styles.treatmentItem} data-aos="zoom-in">
+            <div className={styles.icon}>
               <img
-                src="/icons/tratamentos1.svg"
-                alt="Implantodontia"
-                width={25}
+                src="/icons/profilaxia.svg"
+                alt="Profilaxia"
+                width={32}
                 height={32}
               />
             </div>
-            <h3>Implantodontia</h3>
+            <h3>Profilaxia</h3>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna
+              É a famosa limpeza dental, que é feita com ultrassom para remoção
+              do tartaro, curetas, jato de bicarbonato e escova de robson.
+            </p>
+            <Link href="/tratamentos">
+              <a>Ler mais</a>
+            </Link>
+          </div>
+          <div className={styles.treatmentItem} data-aos="zoom-in">
+            <div className={styles.icon}>
+              <img
+                src="/icons/facetasResinas.svg"
+                alt="Facetas de Resina"
+                width={32}
+                height={27}
+              />
+            </div>
+            <h3>Facetas de Resina</h3>
+            <p>
+              É uma película de resina esculpida dente a dente para harmonizar a
+              cor, forma e posição dos dentes.
+            </p>
+            <Link href="/tratamentos">
+              <a>Ler mais</a>
+            </Link>
+          </div>
+          <div className={styles.treatmentItem} data-aos="zoom-in">
+            <div className={styles.icon}>
+              <img src="/icons/botox.svg" alt="Botox" width={15} height={32} />
+            </div>
+            <h3>Botox</h3>
+            <p>
+              Paralisa a musculatura temporariamente suavizando linhas de
+              expressão e prevenindo rugas.
+            </p>
+            <Link href="/tratamentos">
+              <a>Ler mais</a>
+            </Link>
+          </div>
+          <div className={styles.treatmentItem} data-aos="zoom-in">
+            <div className={styles.icon}>
+              <img
+                src="/icons/preenchimento.svg"
+                alt=" "
+                width={32}
+                height={32}
+              />
+            </div>
+            <h3>Preenchimento Labial</h3>
+            <p>
+              Um procedimento que visa dar volume, contorno e brilho, realçando
+              a sensualidade dos lábios. Bastante procurado entre as mulheres.
+            </p>
+            <Link href="/tratamentos">
+              <a>Ler mais</a>
+            </Link>
+          </div>
+          <div className={styles.treatmentItem} data-aos="zoom-in">
+            <div className={styles.icon}>
+              <img
+                src="/icons/restauracao.svg"
+                alt="Restauração"
+                width={32}
+                height={32}
+              />
+            </div>
+            <h3>Restauração</h3>
+            <p>
+              Feita com resina composta com o intuito de paralisar o avanço da
+              doença carie.
+            </p>
+            <Link href="/tratamentos">
+              <a>Ler mais</a>
+            </Link>
+          </div>
+          {/* <div className={styles.treatmentItem} data-aos="zoom-in">
+            <div className={styles.icon}>
+              <img src="/icons/tratamentos2.svg" alt="Implantodontia" />
+            </div>
+            <h3>Bioestimulador de colágeno</h3>
+            <p>
+              Visa tratar a flacidez da pele rejuvenescendo o rosto dos
+              pacientes através do estímulo natural do colágeno, melhorando a
+              firmeza e a colocação da pele.
             </p>
             <Link href="/tratamentos">
               <a>Ler mais</a>
@@ -159,10 +251,11 @@ export default function Home() {
             <div className={styles.icon}>
               <img src="/icons/tratamentos2.svg" alt="Implantodontia" />
             </div>
-            <h3>Clareamento dentário</h3>
+            <h3>Microagulhamento</h3>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna
+              Selecionamos mesclas que penetram na pele com o intuito de
+              entregar vitaminas, estimular o colágeno, suavizar rugas, tratar
+              manchas e melhorar a qualidade da pele.
             </p>
             <Link href="/tratamentos">
               <a>Ler mais</a>
@@ -170,43 +263,22 @@ export default function Home() {
           </div>
           <div className={styles.treatmentItem} data-aos="zoom-in">
             <div className={styles.icon}>
-              <img
-                src="/icons/tratamentos3.svg"
-                alt="Implantodontia"
-                width={32}
-                height={27}
-              />
+              <img src="/icons/tratamentos2.svg" alt="Implantodontia" />
             </div>
-            <h3>Prótese Fixa</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna
-            </p>
+            <h3>Fios de PDO</h3>
+            <p>são inseridos na derme com o intuito de estimular o colágeno.</p>
             <Link href="/tratamentos">
               <a>Ler mais</a>
             </Link>
           </div>
           <div className={styles.treatmentItem} data-aos="zoom-in">
             <div className={styles.icon}>
-              <img src="/icons/tratamentos4.svg" alt="Implantodontia" />
+              <img src="/icons/tratamentos2.svg" alt="Implantodontia" />
             </div>
-            <h3>Profilaxia</h3>
+            <h3>Peeling</h3>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna
-            </p>
-            <Link href="/tratamentos">
-              <a>Ler mais</a>
-            </Link>
-          </div>
-          <div className={styles.treatmentItem} data-aos="zoom-in">
-            <div className={styles.icon}>
-              <img src="/icons/tratamentos3.svg" alt="Implantodontia" />
-            </div>
-            <h3>Botox</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna
+              Um ativo que ajuda a remover manchas, estimular colágeno, suavizar
+              rugas, dar brilho e melhorar o aspecto da pele
             </p>
             <Link href="/tratamentos">
               <a>Ler mais</a>
@@ -218,13 +290,31 @@ export default function Home() {
             </div>
             <h3>Laserterapia</h3>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna
+              Um laser que oferece uma terapia analgésica e antinflamatórias e
+              também cicatrizante.
             </p>
             <Link href="/tratamentos">
               <a>Ler mais</a>
             </Link>
           </div>
+          <div className={styles.treatmentItem} data-aos="zoom-in">
+            <div className={styles.icon}>
+              <img src="/icons/tratamentos2.svg" alt="Implantodontia" />
+            </div>
+            <h3>Preenchimento facial com ácido hialurônico</h3>
+            <p>
+              Intuito de dar volume onde é necessário melhorar o contorno
+              deixando a face mais harmoniosa, jovem e atraente.
+            </p>
+            <Link href="/tratamentos">
+              <a>Ler mais</a>
+            </Link>
+          </div> */}
+        </div>
+        <div className={styles.treatmentsBtnWrap}>
+          <Button link="/tratamentos" target="_self">
+            Ver todos tratamentos
+          </Button>
         </div>
       </section>
 
@@ -235,14 +325,13 @@ export default function Home() {
             subtitle="Conheça nossa doutora"
           />
           <p className={styles.doctorText}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor. Lorem ipsum dolor
-            sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-            invidunt.
+            Laís é formada na Faculdade de Odontologia de Bauru - USP (2019) que
+            é considerada a melhor faculdade de odontologia do mundo pelo
+            ranking CWUR, além de outros rankings. É também especialista em
+            Harmonização Facial pelo IEO Bauru. Está sempre se atualizando e
+            aperfeiçoando suas técnicas para oferecer os melhores produtos e
+            serviços para seus pacientes. É atenciosa e preparada para atender a
+            todos, desde crianças até idosos.
           </p>
           <Link href="/doutora">
             <a>Ler mais</a>

@@ -45,6 +45,22 @@
     background-color: #ffffff;
     padding: 60px var(--s32);
 
+    .successMessage {
+      grid-column: 1/-1;
+      position: relative;
+      bottom: var(--s32);
+      color: green;
+      font-size: var(--s16);
+    }
+
+    .errorMessage {
+      grid-column: 1/-1;
+      position: relative;
+      bottom: var(--s32);
+      color: crimson;
+      font-size: var(--s16);
+    }
+
     .inputWrap {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -103,6 +119,11 @@
 
       &:hover {
         box-shadow: 0 0 0 2px #d5f6ff, 0 0 0 4px var(--blue-main);
+      }
+
+      &:disabled {
+        cursor: not-allowed;
+        opacity: 0.7;
       }
     }
   }

@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,12 +7,47 @@ import { HeaderPage } from "../../components/HeaderPage";
 import { Footer } from "../../components/Footer";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { sendContactMail } from "../../lib/sendMail.js";
 import styles from "./styles.module.scss";
 
 export default function Contato() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [errorMessage, setErrorMessage] = useState(false);
+  const emailRegex =
+    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+
+    if (!emailRegex.test(email)) {
+      setErrorMessage(true);
+      setEmail("");
+      return;
+    }
+
+    try {
+      setLoading(true);
+      await sendContactMail(name, email, message);
+      setName("");
+      setEmail("");
+      setMessage("");
+      setErrorMessage(false);
+      setSubmitted(true);
+    } catch (error) {
+      alert("Ocorreu um erro ao tentar enviar sua mensagem. Tente novamente!");
+      console.log(error);
+    } finally {
+      setLoading(false);
+    }
+  }
 
   return (
     <>
@@ -38,7 +73,7 @@ export default function Contato() {
               <li>
                 <p>
                   <img src="/icons/localizacaoIcon.svg" alt="Localização" />
-                  Rua Ali Perto, 175
+                  R. Cel. Joaquim Anselmo Martins, 851 - Centro
                 </p>
                 <p>Lençóis Paulista - SP</p>
               </li>
@@ -46,15 +81,15 @@ export default function Contato() {
               <li className={styles.separador}>
                 <p>
                   <img src="/icons/emailIcon.svg" alt="email" />
-                  contato@hotmail.com
+                  dralaisconegliandutra@gmail.com
                 </p>
               </li>
               <li>
                 <p>
                   <img src="/icons/telefoneIcon.svg" alt="Telefone" />
-                  +55 (14) 3263-9999
+                  +55 (14) 981472951
                 </p>
-                <p>+55 (14) 99123-4567</p>
+                {/* <p>+55 (14) 99123-4567</p> */}
               </li>
               <li className={styles.separador}>
                 <p>
@@ -64,42 +99,80 @@ export default function Contato() {
                 <p>08-12h sáb</p>
               </li>
               <li className={styles.social}>
-                <Link href="/">
-                  <a>
+                <Link href="https://www.instagram.com/dralaiscdutra">
+                  <a target="_blank">
                     <img src="/icons/instaContato.svg" alt="Instagram" />
                   </a>
                 </Link>
-                <Link href="/">
-                  <a>
+                <Link href="https://www.facebook.com/dralaiscdutra">
+                  <a target="_blank">
                     <img src="/icons/faceContato.svg" alt="Facebook" />
                   </a>
                 </Link>
-                <Link href="/">
+                {/* <Link href="/">
                   <a>
                     <img src="/icons/youtubeContato.svg" alt="Youtube" />
                   </a>
-                </Link>
+                </Link> */}
               </li>
             </ul>
           </div>
 
-          <form className={styles.contactRight}>
+          <form className={styles.contactRight} onSubmit={handleSubmit}>
+            {!!submitted && (
+              <span className={styles.successMessage}>
+                Mensagem enviada com sucesso! Em breve entraremos em contato.
+              </span>
+            )}
+
+            {!!errorMessage && (
+              <span className={styles.errorMessage}>
+                Email Inválido. Necessário preencher um email Válido!
+              </span>
+            )}
+
             <div className={styles.inputWrap}>
               <div className={styles.input}>
                 <label htmlFor="name">Nome</label>
-                <input type="text" name="name" />
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                />
               </div>
               <div className={styles.input}>
                 <label htmlFor="email">E-mail</label>
-                <input type="text" name="email" />
+                <input
+                  type="text"
+                  name="email"
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
               </div>
             </div>
             <div className={styles.input}>
               <label htmlFor="message">Mensagem</label>
-              <textarea name="message" rows="6"></textarea>
+              <textarea
+                name="message"
+                rows="6"
+                required
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+              ></textarea>
             </div>
 
-            <button className={styles.button}>ENVIAR MENSAGEM</button>
+            {!!loading ? (
+              <button className={styles.button} disabled>
+                ENVIANDO...
+              </button>
+            ) : (
+              <button className={styles.button} type="submit">
+                ENVIAR MENSAGEM
+              </button>
+            )}
           </form>
         </section>
       </main>

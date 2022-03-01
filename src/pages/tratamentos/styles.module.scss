@@ -46,12 +46,36 @@
   }
 }
 
+.images {
+  margin-bottom: 90px;
+  .imagesContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--s24);
+    margin-top: var(--s64);
+  }
+}
+
 @media (max-width: 850px) {
   .treatments {
     grid-template-columns: 1fr;
 
     .treatmentsItem {
       padding: var(--s32) var(--s16);
+    }
+  }
+
+  .images {
+    .imagesContainer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .images {
+    .imagesContainer {
+      grid-template-columns: 1fr;
     }
   }
 }

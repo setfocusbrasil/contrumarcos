@@ -53,21 +53,15 @@ export default function Doutora() {
         <div className={styles.doctorContent} data-aos="fade-up">
           <h2>Olá, eu sou a dra. Laís C. Dutra</h2>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam.
+            A Dra. Laís é formada na Faculdade de Odontologia de Bauru - USP
+            (2019) que é considerada a melhor faculdade de odontologia do mundo
+            pelo ranking CWUR, além de outros rankings.
           </p>
           <p>
-            labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
-            et accusam et justo duo dolores et ea rebum. Stet clita kasd
-            gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.
+            É também especialista em Harmonização Facial pelo IEO Bauru. Está
+            sempre se atualizando e aperfeiçoando suas técnicas para oferecer os
+            melhores produtos e serviços para seus pacientes. É atenciosa e
+            preparada para atender a todos, desde crianças até idosos.
           </p>
         </div>
       </main>

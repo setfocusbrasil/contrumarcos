@@ -1,8 +1,10 @@
 import { useEffect } from "react";
 import Head from "next/head";
+import Image from "next/image";
 import { HeaderPage } from "../../components/HeaderPage";
 import { MyImage } from "../../components/MyImage";
 import { Footer } from "../../components/Footer";
+import { Title } from "../../components/Title";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import styles from "./styles.module.scss";
@@ -32,60 +34,6 @@ export default function Tratamentos() {
       <main className={`${styles.treatments} mainContainer`}>
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/restauracao.jpg"
-            alt="Restaurações"
-            width="350"
-            height="279"
-            left
-          />
-          <h3>Restaurações</h3>
-          <div className={styles.description}>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
-              fuga eveniet reprehenderit tenetur, modi neque repellendus eum
-              ullam tempora praesentium illum est, aliquid repudiandae dolorum
-              voluptatum in dolor possimus commodi ut tempore. Nostrum at est,
-              aperiam ex molestias repellendus odio voluptatibus quas incidunt
-              libero animi veritatis sint iste nam natus?
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              repellendus suscipit ex nostrum reiciendis accusantium impedit
-              asperiores quae similique tenetur?
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-              animi fugiat aliquid cumque blanditiis est amet, placeat quasi
-              rerum dolore maxime, soluta quos voluptatum inventore?
-              Dignissimos, architecto ipsa ea sunt laboriosam quae?
-            </p>
-          </div>
-        </div>
-
-        <div className={styles.treatmentsItem} data-aos="fade-up">
-          <MyImage
-            src="/images/faceta.jpeg"
-            alt="Facetas De Resina"
-            width="350"
-            height="279"
-          />
-          <h3>Facetas De Resina</h3>
-          <div className={styles.description}>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
-              fuga eveniet reprehenderit tenetur, modi neque repellendus eum
-              ullam tempora praesentium illum est, aliquid repudiandae dolorum
-              voluptatum in dolor possimus commodi ut tempore. Nostrum at est,
-              aperiam ex molestias repellendus odio voluptatibus quas incidunt
-              libero animi veritatis sint iste nam natus?
-            </p>
-          </div>
-        </div>
-
-        <div className={styles.treatmentsItem} data-aos="fade-up">
-          <MyImage
             src="/images/profilaxia.jpg"
             alt="Profilaxia"
             width="350"
@@ -95,18 +43,10 @@ export default function Tratamentos() {
           <h3>Profilaxia</h3>
           <div className={styles.description}>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
-              fuga eveniet reprehenderit tenetur, modi neque repellendus eum
-              ullam tempora praesentium illum est, aliquid repudiandae dolorum
-              voluptatum in dolor possimus commodi ut tempore. Nostrum at est,
-              aperiam ex molestias repellendus odio voluptatibus quas incidunt
-              libero animi veritatis sint iste nam natus?
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              repellendus suscipit ex nostrum reiciendis accusantium impedit
-              asperiores quae similique tenetur?
+              É a famosa limpeza dental, que é feita com ultrassom para remoção
+              do tartaro, curetas, jato de bicarbonato e escova de robson.
+              Fundamental para prevenção de doenças bucais como carie,
+              gengivite, peridontite, mal hálito, entre outras...
             </p>
           </div>
         </div>
@@ -114,35 +54,56 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/clareamento.jpg"
-            alt="Claramente Dental"
+            alt="Clareamento dental"
+            width="350"
+            height="279"
+          />
+          <h3>Clareamento dental</h3>
+          <div className={styles.description}>
+            <p>
+              LUm dos serviços mais procurados por ser considerado um tratamento
+              pouco invasivo, muito seguro e com resultados incríveis para os
+              dentes. O dentista usa um gel que clareia a superfície dentaria e
+              o resultado pode ser visto logo após a sessão do clareamento a
+              laser.
+            </p>
+            <p>
+              Nosso diferencial é o uso da laserterapia para controle da
+              sensibilidade pós operatória.
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/faceta.jpeg"
+            alt="Facetas de Resina"
             width="350"
             height="279"
             left
           />
-          <h3>Claramente Dental</h3>
+          <h3>Facetas de Resina</h3>
           <div className={styles.description}>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
-              fuga eveniet reprehenderit tenetur, modi neque repellendus eum
-              ullam tempora praesentium illum est, aliquid repudiandae dolorum
-              voluptatum in dolor possimus commodi ut tempore. Nostrum at est,
-              aperiam ex molestias repellendus odio voluptatibus quas incidunt
-              libero animi veritatis sint iste nam natus?
+              É uma película de resina esculpida dente a dente para harmonizar a
+              cor, forma e posição dos dentes.
             </p>
+          </div>
+        </div>
 
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/preenchimentoLabial.jpeg"
+            alt="Preenchimento Labial"
+            width="350"
+            height="279"
+            left
+          />
+          <h3>Preenchimento Labial</h3>
+          <div className={styles.description}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              repellendus suscipit ex nostrum reiciendis accusantium impedit
-              asperiores quae similique tenetur? Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Id, minus? Ab adipisci itaque
-              mollitia iure.
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-              animi fugiat aliquid cumque blanditiis est amet, placeat quasi
-              rerum dolore maxime, soluta quos voluptatum inventore?
-              Dignissimos, architecto ipsa ea sunt laboriosam quae?
+              Um procedimento que visa dar volume, contorno e brilho, realçando
+              a sensualidade dos lábios. Bastante procurado entre as mulheres.
             </p>
           </div>
         </div>
@@ -158,63 +119,171 @@ export default function Tratamentos() {
           <h3>Botox</h3>
           <div className={styles.description}>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
-              fuga eveniet reprehenderit tenetur, modi neque repellendus eum
-              ullam tempora praesentium illum est, aliquid repudiandae dolorum
-              voluptatum in dolor possimus commodi ut tempore. Nostrum at est,
-              aperiam ex molestias repellendus odio voluptatibus quas incidunt
-              libero animi veritatis sint iste nam natus?
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              repellendus suscipit ex nostrum reiciendis accusantium impedit
-              asperiores quae similique tenetur?
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-              animi fugiat aliquid cumque blanditiis est amet, placeat quasi
-              rerum dolore maxime, soluta quos voluptatum inventore?
-              Dignissimos, architecto ipsa ea sunt laboriosam quae?
+              Nosso queridinho é o mais procurado na área da harmonização
+              facial. Ele paralisa a musculatura temporariamente suavizando
+              linhas de expressão e prevenindo rugas.
             </p>
           </div>
         </div>
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/laser.jpg"
-            alt="Laserterapia"
+            src="/images/preenchimentoFacial.jpg"
+            alt="Preenchimento facial"
             width="350"
             height="279"
             left
           />
-          <h3>Laserterapia</h3>
+          <h3>Preenchimento facial com ácido hialuronico</h3>
           <div className={styles.description}>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
-              fuga eveniet reprehenderit tenetur, modi neque repellendus eum
-              ullam tempora praesentium illum est, aliquid repudiandae dolorum
-              voluptatum in dolor possimus commodi ut tempore. Nostrum at est,
-              aperiam ex molestias repellendus odio voluptatibus quas incidunt
-              libero animi veritatis sint iste nam natus?
+              Pode ser feito no malar, mandibula e mento com o intuito de dar
+              volume onde é necessário melhorar o contorno deixando a face mais
+              harmoniosa, jovem e atraente.
             </p>
+          </div>
+        </div>
 
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/"
+            alt="Restauração"
+            width="350"
+            height="279"
+            left
+          />
+          <h3>Restauração</h3>
+          <div className={styles.description}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              repellendus suscipit ex nostrum reiciendis accusantium impedit
-              asperiores quae similique tenetur?
+              Feita com resina composta com o intuito de paralisar o avanço da
+              doença carie.
             </p>
+          </div>
+        </div>
 
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/bioestimuladorColageno.jpeg"
+            alt="Bioestimulador de colageno"
+            width="350"
+            height="279"
+            left
+          />
+          <h3>Bioestimulador de colageno</h3>
+          <div className={styles.description}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-              animi fugiat aliquid cumque blanditiis est amet, placeat quasi
-              rerum dolore maxime, soluta quos voluptatum inventore?
-              Dignissimos, architecto ipsa ea sunt laboriosam quae?
+              Procedimento injetável que visa tratar a flacidez da pele
+              rejuvenescendo o rosto dos pacientes através do estímulo natural
+              do colágeno, melhorando a firmeza e a colocação da pele.
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/"
+            alt="Microagulhamento"
+            width="350"
+            height="279"
+            left
+          />
+          <h3>Microagulhamento</h3>
+          <div className={styles.description}>
+            <p>
+              Procedimento feito com uma derma pen por meio do qual selecionamos
+              mesclas que penetram na pele com o intuito de entregar vitaminas,
+              estimular o colágeno, suavizar rugas, tratar manchas e melhorar a
+              qualidade da pele. Depois selamos a pele com um peeling químico.
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/"
+            alt="Fios de PDO"
+            width="350"
+            height="279"
+            left
+          />
+          <h3>Fios de PDO</h3>
+          <div className={styles.description}>
+            <p>São inseridos na derme com o intuito de estimular o colágeno.</p>
+          </div>
+        </div>
+
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage src="/images/" alt="Peeling" width="350" height="279" left />
+          <h3>Peeling</h3>
+          <div className={styles.description}>
+            <p>
+              Um ativo que ajuda a remover manchas, estimular colágeno, suavizar
+              rugas, dar brilho e melhorar o aspecto da pele
             </p>
           </div>
         </div>
       </main>
+
+      <section className={styles.images}>
+        <Title title="Fotos" subtitle="Resultado dos Tratamentos" />
+
+        <ul className={`${styles.imagesContainer} mainContainer`}>
+          <li data-aos="zoom-in-up">
+            <Image
+              src="/images/resultado1.jpeg"
+              alt="Resultado dos Tratamentos"
+              width={460}
+              height={390}
+              objectFit="cover"
+            />
+          </li>
+          <li data-aos="zoom-in-up">
+            <Image
+              src="/images/resultado2.jpeg"
+              alt="Resultado dos Tratamentos"
+              width={460}
+              height={390}
+              objectFit="cover"
+            />
+          </li>
+          <li data-aos="zoom-in-up">
+            <Image
+              src="/images/resultado3.jpeg"
+              alt="Resultado dos Tratamentos"
+              width={460}
+              height={390}
+              objectFit="cover"
+            />
+          </li>
+          <li data-aos="zoom-in-up">
+            <Image
+              src="/images/resultado4.jpeg"
+              alt="Resultado dos Tratamentos"
+              width={460}
+              height={390}
+              objectFit="cover"
+            />
+          </li>
+          <li data-aos="zoom-in-up">
+            <Image
+              src="/images/resultado5.jpeg"
+              alt="Resultado dos Tratamentos"
+              width={460}
+              height={390}
+              objectFit="cover"
+            />
+          </li>
+          <li data-aos="zoom-in-up">
+            <Image
+              src="/images/resultado6.jpeg"
+              alt="Resultado dos Tratamentos"
+              width={460}
+              height={390}
+              objectFit="cover"
+            />
+          </li>
+        </ul>
+      </section>
 
       <Footer />
     </>

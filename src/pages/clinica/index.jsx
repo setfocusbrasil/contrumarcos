@@ -34,7 +34,7 @@ export default function Clinica() {
       <main className={`${styles.clinic} mainContainer`}>
         <div data-aos="fade-up">
           <MyImage
-            src="/images/clinica1.jpg"
+            src="/images/clinica1.jpeg"
             alt="Frente da Clínica"
             width="430"
             height="508"
@@ -44,33 +44,31 @@ export default function Clinica() {
 
         <div className={styles.clinicDescription} data-aos="fade-up">
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            A Clínica foi fundada no ano de 2020 com o propósito de trazer para
+            Lençóis Paulista e região uma nova visão sobre a Odontologia e
+            Harmonização Facial. Uma clínica em que o paciente tem atenção
+            especial pois é um espaço exclusivo onde somente a Dra Lais
+            Coneglian Dutra atende. Dessa maneira ela pode executar um
+            atendimento mais individualizado e humanizado, respeitando as
+            particularidades e exigências de cada paciente, além de proporcionar
+            muito mais privacidade ao atendimento.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.
+            A clínica está sempre pronta, com ambiente muito bem esterilizado e
+            higienizado para garantir a segurança e integridade de todos os
+            pacientes.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.
+            Os equipamentos são todos novos e de última geração garantindo a
+            todos os cliente o que há de melhor e mais moderno em tratamento
+            odontológicos e de harmonização facial.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum.
+            A clínica preza sempre por tratamentos de excelência, por isso
+            utilizamos produtos da melhor qualidade em toxina botulínica,
+            preenchedores, bioestimuladores de colageno, resinas, clareadores
+            dentais, entre outros. A melhor qualidade em produtos é equipamentos
+            para oferecer o melhor resultado em todos os tratamentos!!
           </p>
         </div>
       </main>
@@ -80,11 +78,11 @@ export default function Clinica() {
 
         <div className={styles.photosSlider}>
           <ul>
-            <li data-aos="zoom-in-up">
+            <li data-aos="zoom-in-up" className={styles.bigger}>
               <Image
                 src="/images/clinica2.jpg"
                 alt="Foto interna da clínica"
-                width="600"
+                width="1216"
                 height="375"
                 objectFit="cover"
               />
@@ -98,11 +96,56 @@ export default function Clinica() {
                 objectFit="cover"
               />
             </li>
-            <li className={styles.bigger} data-aos="zoom-in-up">
+            <li data-aos="zoom-in-up">
               <Image
                 src="/images/clinica4.jpg"
                 alt="Foto interna da clínica"
-                width="1200"
+                width="600"
+                height="375"
+                objectFit="cover"
+              />
+            </li>
+            <li data-aos="zoom-in-up">
+              <Image
+                src="/images/clinica5.jpg"
+                alt="Foto interna da clínica"
+                width="600"
+                height="375"
+                objectFit="cover"
+              />
+            </li>
+            <li data-aos="zoom-in-up">
+              <Image
+                src="/images/clinica6.jpg"
+                alt="Foto interna da clínica"
+                width="600"
+                height="375"
+                objectFit="cover"
+              />
+            </li>
+            <li data-aos="zoom-in-up" className={styles.bigger}>
+              <Image
+                src="/images/clinica7.jpg"
+                alt="Foto interna da clínica"
+                width="1216"
+                height="375"
+                objectFit="cover"
+              />
+            </li>
+            <li data-aos="zoom-in-up">
+              <Image
+                src="/images/clinica8.jpg"
+                alt="Foto interna da clínica"
+                width="600"
+                height="375"
+                objectFit="cover"
+              />
+            </li>
+            <li data-aos="zoom-in-up">
+              <Image
+                src="/images/clinica9.jpg"
+                alt="Foto interna da clínica"
+                width="600"
                 height="375"
                 objectFit="cover"
               />

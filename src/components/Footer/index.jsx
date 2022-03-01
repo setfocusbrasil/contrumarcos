@@ -19,15 +19,15 @@ export const Footer = ({ children, link = "/" }) => {
           </Link>
 
           <div>
-            <h3>Nome Clínica</h3>
+            <h3>Clínica Dra. Laís C. Dutra</h3>
             <ul>
-              <li>(14) 99999-8888</li>
-              <li>contato@hotmail.com</li>
-              <li>Rua Ali Perto, 42</li>
+              <li>(14) 981472951</li>
+              <li>dralaisconegliandutra@gmail.com</li>
+              <li>R. Cel. Joaquim Anselmo Martins, 851</li>
               <li>Lençóis Paulista - SP</li>
               <li className={styles.social}>
-                <Link href="/">
-                  <a>
+                <Link href="https://www.instagram.com/dralaiscdutra">
+                  <a target="_blank">
                     <Image
                       src="/icons/instaFooter.svg"
                       alt="Logo"
@@ -36,8 +36,8 @@ export const Footer = ({ children, link = "/" }) => {
                     />
                   </a>
                 </Link>
-                <Link href="/">
-                  <a>
+                <Link href="https://www.facebook.com/dralaiscdutra">
+                  <a target="_blank">
                     <Image
                       src="/icons/faceFooter.svg"
                       alt="Logo"
@@ -46,7 +46,7 @@ export const Footer = ({ children, link = "/" }) => {
                     />
                   </a>
                 </Link>
-                <Link href="/">
+                {/* <Link href="/">
                   <a>
                     <Image
                       src="/icons/youtubeFooter.svg"
@@ -55,7 +55,7 @@ export const Footer = ({ children, link = "/" }) => {
                       height="27"
                     />
                   </a>
-                </Link>
+                </Link> */}
               </li>
             </ul>
           </div>
@@ -63,7 +63,7 @@ export const Footer = ({ children, link = "/" }) => {
           <div>
             <h3>Responsável Técnica</h3>
             <p>Dra. Laís Coneglian Dutra</p>
-            <p>CRO SP 99.999</p>
+            <p>CRO SP 135950</p>
           </div>
 
           <div>
