@@ -61,7 +61,7 @@ export default function Tratamentos() {
           <h3>Clareamento dental</h3>
           <div className={styles.description}>
             <p>
-              LUm dos serviços mais procurados por ser considerado um tratamento
+              Um dos serviços mais procurados por ser considerado um tratamento
               pouco invasivo, muito seguro e com resultados incríveis para os
               dentes. O dentista usa um gel que clareia a superfície dentaria e
               o resultado pode ser visto logo após a sessão do clareamento a
