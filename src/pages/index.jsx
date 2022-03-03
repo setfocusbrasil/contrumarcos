@@ -201,7 +201,7 @@ export default function Home() {
             <div className={styles.icon}>
               <img
                 src="/icons/preenchimento.svg"
-                alt=" "
+                alt="Preenchimento Labial"
                 width={32}
                 height={32}
               />
