@@ -76,7 +76,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/faceta.jpeg"
+            src="/images/facetas.jpg"
             alt="Facetas de Resina"
             width="350"
             height="279"
@@ -146,7 +146,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/"
+            src="/images/restauração.jpeg"
             alt="Restauração"
             width="350"
             height="279"
@@ -181,7 +181,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/"
+            src="/images/microagulhamento.jpg"
             alt="Microagulhamento"
             width="350"
             height="279"
@@ -198,7 +198,7 @@ export default function Tratamentos() {
           </div>
         </div>
 
-        <div className={styles.treatmentsItem} data-aos="fade-up">
+        {/* <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/"
             alt="Fios de PDO"
@@ -210,10 +210,10 @@ export default function Tratamentos() {
           <div className={styles.description}>
             <p>São inseridos na derme com o intuito de estimular o colágeno.</p>
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
-          <MyImage src="/images/" alt="Peeling" width="350" height="279" left />
+          <MyImage src="/images/peeling.jpg" alt="Peeling" width="350" height="279" left />
           <h3>Peeling</h3>
           <div className={styles.description}>
             <p>
