@@ -42,6 +42,8 @@ export default function Home() {
           content="Dentista, Clínica Odontológica, Dentista em Lençóis Paulista, Harmonização Facial, Clareamento Dental, Clínica Odontológica em Lençóis Paulista"
         />
         <meta name="author" content="dra. Laís Coneglian Dutra" />
+
+        <script async src="//static.zotabox.com/4/c/4c5c05a95fe476cec4705911aa442f5d/widgets.js"></script>
       </Head>
 
       {/* <div className={styles.schedule}>
