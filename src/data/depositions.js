@@ -9,7 +9,7 @@ export const depositions = [
     id: 2,
     name: "Marcelo Albuquerque ",
     description:
-      "Bom dia, gostaria de relatar minha experiência no consultório. De início fui muito bem recepcionado pela Simone, ela quem me apresentou e me deixou a vontade.",                                  
+      "Bom dia, gostaria de relatar minha experiência no consultório. De início fui muito bem recepcionado pela Simone, ela quem me apresentou e me deixou a vontade.Pós fui atendido pela Dra Lais, com sua simpatia e esperteza, se faz uma profissional de excelência. Dito então não achei outra forma de ficar muito feliz num geral, os resultados foram evidentes, as queixas que eu tinha foram resolvidas.Só tenho a agradecer e onde for dar um belo sorriso e deixar claro que foi com a Dra Lais que o alcancei.",                                  
    },
   // {
   //   id: 2,
