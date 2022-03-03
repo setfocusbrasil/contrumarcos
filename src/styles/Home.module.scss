@@ -299,6 +299,12 @@
     .imgHero {
       margin-top: var(--s64);
     }
+
+    .btnWrap {
+      a {
+        margin: auto;
+      }
+    }
   }
 
   .about {
@@ -352,10 +358,6 @@
     .btnWrap {
       gap: 20px;
       flex-wrap: wrap;
-
-      a {
-        margin: auto;
-      }
 
       span {
         margin: 20px auto 0 auto;
