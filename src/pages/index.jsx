@@ -188,9 +188,9 @@ export default function Home() {
           </div>
           <div className={styles.treatmentItem} data-aos="zoom-in">
             <div className={styles.icon}>
-              <img src="/icons/botox.svg" alt="Botox" width={15} height={32} />
+              <img src="/icons/Botulinica.svg" alt="Botulinica" width={15} height={32} />
             </div>
-            <h3>Botox</h3>
+            <h3>Toxina Botulinica</h3>
             <p>
               Paralisa a musculatura temporariamente suavizando linhas de
               expressão e prevenindo rugas.

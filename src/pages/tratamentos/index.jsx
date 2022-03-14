@@ -110,13 +110,13 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/botox.jpg"
-            alt="Botox"
+            src="/images/Botulinica.jpg"
+            alt="Botulinica"
             width="350"
             height="279"
             left
           />
-          <h3>Botox</h3>
+          <h3>Toxina Botulinica</h3>
           <div className={styles.description}>
             <p>
               Nosso queridinho é o mais procurado na área da harmonização

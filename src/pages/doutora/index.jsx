@@ -87,7 +87,7 @@ export default function Doutora() {
           </div>
           <div className={styles.formationItem} data-aos="zoom-in">
             <span>Curso</span>
-            <h3>Toxina Botulínica (Botox)</h3>
+            <h3>Toxina Botulínica </h3>
             <p></p>
           </div>
           <div className={styles.formationItem} data-aos="zoom-in">
