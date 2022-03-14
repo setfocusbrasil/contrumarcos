@@ -188,7 +188,7 @@ export default function Home() {
           </div>
           <div className={styles.treatmentItem} data-aos="zoom-in">
             <div className={styles.icon}>
-              <img src="/icons/Botulinica.svg" alt="Botulinica" width={15} height={32} />
+              <img src="/icons/botulinica.svg" alt="Botulinica" width={15} height={32} />
             </div>
             <h3>Toxina Botulinica</h3>
             <p>

@@ -110,7 +110,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/Botulinica.jpg"
+            src="/images/botulinica.jpg"
             alt="Botulinica"
             width="350"
             height="279"
