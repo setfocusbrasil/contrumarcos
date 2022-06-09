@@ -32,6 +32,7 @@ export default function Tratamentos() {
         <HeaderPage subtitle="Todos os serviços" title="Nossos Tratamentos." />
       </div>
       <main className={`${styles.treatments} mainContainer`}>
+
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/profilaxia.jpg"
@@ -50,6 +51,9 @@ export default function Tratamentos() {
             </p>
           </div>
         </div>
+
+
+
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
@@ -73,6 +77,54 @@ export default function Tratamentos() {
             </p>
           </div>
         </div>
+
+
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/profilaxia.jpg"
+            alt="Profilaxia"
+            width="350"
+            height="279"
+            left
+          />
+          <h3>Profilaxia</h3>
+          <div className={styles.description}>
+            <p>
+              É a famosa limpeza dental, que é feita com ultrassom para remoção
+              do tartaro, curetas, jato de bicarbonato e escova de robson.
+              Fundamental para prevenção de doenças bucais como carie,
+              gengivite, peridontite, mal hálito, entre outras...
+            </p>
+          </div>
+        </div>
+
+
+
+
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/clareamento.jpg"
+            alt="Clareamento dental"
+            width="350"
+            height="279"
+          />
+          <h3>Clareamento dental</h3>
+          <div className={styles.description}>
+            <p>
+              Um dos serviços mais procurados por ser considerado um tratamento
+              pouco invasivo, muito seguro e com resultados incríveis para os
+              dentes. O dentista usa um gel que clareia a superfície dentaria e
+              o resultado pode ser visto logo após a sessão do clareamento a
+              laser.
+            </p>
+            <p>
+              Nosso diferencial é o uso da laserterapia para controle da
+              sensibilidade pós operatória.
+            </p>
+          </div>
+        </div>        
+
+        
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
