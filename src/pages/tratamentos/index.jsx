@@ -44,10 +44,7 @@ export default function Tratamentos() {
           <h3>Lentes em Resina</h3>
           <div className={styles.description}>
             <p>
-              É a famosa limpeza dental, que é feita com ultrassom para remoção
-              do tartaro, curetas, jato de bicarbonato e escova de robson.
-              Fundamental para prevenção de doenças bucais como carie,
-              gengivite, peridontite, mal hálito, entre outras...
+            Uma lente de resina, ou faceta de resina é uma técnica de procedimento dentário para mudar a estética de um sorriso de forma rápida e deixá-lo mais branco. Elas são constituídas de lâminas ultrafinas que são coladas na parte externa dos dentes para corrigir pequenos defeitos específicos.
             </p>
           </div>
         </div>
