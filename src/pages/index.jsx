@@ -129,7 +129,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.treatments}>
+      {/*  <section className={styles.treatments}>
         <div data-aos="fade-down">
           <Title title="Tratamentos" subtitle="Principais serviços" />
         </div>
@@ -310,14 +310,16 @@ export default function Home() {
             <Link href="/tratamentos">
               <a>Ler mais</a>
             </Link>
-          </div> */}
+          </div> 
         </div>
         <div className={styles.treatmentsBtnWrap}>
           <Button link="/tratamentos" target="_self">
             Ver todos tratamentos
           </Button>
         </div>
-      </section>
+      </section> 
+      
+    */}
 
       <section className={`${styles.doctor} mainContainer`}>
         <div className={styles.doctorContent} data-aos="fade-up">
