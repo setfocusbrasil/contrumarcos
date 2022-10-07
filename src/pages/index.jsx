@@ -60,13 +60,10 @@ export default function Home() {
               Um atendimento personalizado faz toda a Diferença
             </h1>
 
-            <h3>
+          
+            <p data-aos="fade-up" data-aos-delay="200">
             Nossa missão é entregar qualidade e preço baixo para proporcionar
               máxima satisfação aos nossos Clientes.
-            </h3>
-
-            <p data-aos="fade-up" data-aos-delay="200">
-              
             </p>
            
   
