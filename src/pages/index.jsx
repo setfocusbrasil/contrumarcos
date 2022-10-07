@@ -57,7 +57,7 @@ export default function Home() {
         <div className={`mainContainer ${styles.heroWrap}`}>
           <section className={styles.leftContent}>
             <h1 className="title" data-aos="fade-up">
-              A Harmonia da Face Começa pelo <strong>Sorriso</strong>
+              Um atendimento personalizado faz toda a <strong>Diferença</strong>
             </h1>
             <p data-aos="fade-up" data-aos-delay="200">
               Nossa missão é entregar qualidade e preço baixo para proporcionar
