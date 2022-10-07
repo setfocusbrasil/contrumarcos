@@ -64,6 +64,7 @@ export default function Home() {
               máxima satisfação aos nossos Clientes.
               Com dúvidas sobre a aplicação de produtos ou serviços elétricos? 
             </p>
+            <h2>Equipe Qualificada</h2>
             <p data-aos="fade-up" data-aos-delay="200">
               Nossa missão é entregar qualidade e preço baixo para proporcionar
               máxima satisfação aos nossos Clientes.
