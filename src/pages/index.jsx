@@ -62,6 +62,7 @@ export default function Home() {
             <p data-aos="fade-up" data-aos-delay="200">
               Nossa missão é entregar qualidade e preço baixo para proporcionar
               máxima satisfação aos nossos Clientes.
+              Com dúvidas sobre a aplicação de produtos ou serviços elétricos? 
             </p>
             <div
               className={styles.btnWrap}
