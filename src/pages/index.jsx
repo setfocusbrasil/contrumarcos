@@ -117,15 +117,12 @@ export default function Home() {
           </div>
 
           <div className={styles.aboutRightContent} data-aos="fade-up">
-            <h2>
+            <h3>
               <strong2>Loja Referência em Qualidade de Materiais Elétricos em</strong2> <strong>Lençóis Paulista e Região.</strong>
-            </h2>
-         
-              <h3>
-              <p>
-            <strong2>A Eletro Santa Clara foi fundada em Lençóis Paulista, no interior do estado de São Paulo, há mais de três décadas, com o principal objetivo de servir o cidadão lençoense com a mais completa loja de materiais elétricos da cidade. Essa visão inicial foi transformada com o tempo e o crescimento da loja, principalmente com a abertura de sua primeira filial, na Rodovia Osny Mateus. Pois agora somado aos preços baixos e atendimento de excelência, a facilidade de acesso foi mais um atrativo para clientes de toda a região.</strong2>
-            </p>
             </h3>
+            <p>
+            <strong2>Junior Placca</strong2>A Eletro Santa Clara foi fundada em Lençóis Paulista, no interior do estado de São Paulo, há mais de três décadas, com o principal objetivo de servir o cidadão lençoense com a mais completa loja de materiais elétricos da cidade. Essa visão inicial foi transformada com o tempo e o crescimento da loja, principalmente com a abertura de sua primeira filial, na Rodovia Osny Mateus. Pois agora somado aos preços baixos e atendimento de excelência, a facilidade de acesso foi mais um atrativo para clientes de toda a região.
+            </p>
             <Button link="/clinica" target="_self">
               Ver Mais
             </Button>
