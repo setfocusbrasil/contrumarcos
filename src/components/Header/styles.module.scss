@@ -38,7 +38,7 @@
     top: 84px;
     right: 0;
     background-color: var(--blue-main);
-    color: var(--blue);
+    color: var(--white);
     z-index: 1000;
     visibility: hidden;
     overflow-y: hidden;
@@ -79,7 +79,7 @@
   font-size: 1rem;
   letter-spacing: 0.05rem;
   border: none;
-  color: var(--white);
+  color: var(--blue);
   cursor: pointer;
 
   span {
