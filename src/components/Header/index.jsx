@@ -108,7 +108,7 @@ export const Header = () => {
             </li>
             <li onClick={closeMenu}>
               <Link href="/clinica">
-                <a>xA Empresa</a>
+                <a>A Empresa</a>
               </Link>
             </li>
             <li onClick={closeMenu}>
