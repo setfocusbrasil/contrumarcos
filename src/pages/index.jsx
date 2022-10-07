@@ -107,16 +107,7 @@ export default function Home() {
          <p><strong>Conheça nossas Lojas</strong></p>  
         </div> */}
 
-        <div className={styles.aboutContent}>
-          <div className={styles.imgAbout} data-aos="fade-up">
-            <MyImage
-              src="/images/fachada.jpg"
-              alt="Clientes sendo atendido"
-              width="540"
-              height="500"
-              left
-            />
-          </div>
+       
 
           <div className={styles.aboutRightContent} data-aos="fade-up">
             <h3>
@@ -130,6 +121,18 @@ export default function Home() {
             </Button>
           </div>
         </div>
+
+        <div className={styles.aboutContent}>
+          <div className={styles.imgAbout} data-aos="fade-up">
+            <MyImage
+              src="/images/fachada.jpg"
+              alt="Clientes sendo atendido"
+              width="540"
+              height="500"
+              left
+            />
+          </div>
+
       </section>
 
       {/*  <section className={styles.treatments}>
