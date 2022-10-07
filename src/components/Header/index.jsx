@@ -63,10 +63,10 @@ export const Header = () => {
               <a>Home</a>
             </Link>
             <Link href="/tratamentos">
-              <a>A Empresa</a>
+              <a>Produtos</a>
             </Link>
             <Link href="/clinica">
-              <a>Produtos</a>
+              <a>A Empresa</a>
             </Link>
             <Link href="/doutora">
               <a>Localização</a>
