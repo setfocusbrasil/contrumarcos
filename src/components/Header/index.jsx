@@ -38,8 +38,8 @@ export const Header = () => {
           <Link href="/">
             <a>
               <Image
-                src="/icons/logo.svg"
-                alt="Logo Odontologia e armonização facial"
+                src="/icons/logo_transparente.png"
+                alt="Eletro Santa Clara"
                 width="130"
                 height="64"
               />
