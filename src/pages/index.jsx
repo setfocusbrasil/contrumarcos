@@ -319,7 +319,7 @@ export default function Home() {
         </div>
       </section> 
       
-    */}
+ 
 
       <section className={`${styles.doctor} mainContainer`}>
         <div className={styles.doctorContent} data-aos="fade-up">
@@ -384,7 +384,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-
+   */}
       <Footer />
     </>
   );
