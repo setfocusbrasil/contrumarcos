@@ -109,7 +109,16 @@ export default function Home() {
 
         <div className={styles.aboutContent}>
          
-
+        <div className={styles.imgAbout} data-aos="fade-up">
+            <MyImage
+              src="/images/fachada.jpg"
+              alt="Clientes sendo atendido"
+              width="540"
+              height="500"
+              left
+            />
+          </div>
+          
           <div className={styles.aboutRightContent} data-aos="fade-up">
             <h3>
               <strong2>Loja Referência em Qualidade de Materiais Elétricos em</strong2> <strong>Lençóis Paulista e Região.</strong>
@@ -121,16 +130,8 @@ export default function Home() {
               Ver Mais
             </Button>
           </div>
-          
-          <div className={styles.imgAbout} data-aos="fade-up">
-            <MyImage
-              src="/images/fachada.jpg"
-              alt="Clientes sendo atendido"
-              width="540"
-              height="500"
-              left
-            />
-          </div>
+
+
 
 
         </div>
