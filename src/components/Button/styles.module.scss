@@ -19,9 +19,9 @@
 }
 
 .buttonDark {
-  background-color: #287da1;
+  background-color: var(--blue-black);
 
   &:hover {
-    box-shadow: 0 0 0 2px #c7ebf5, 0 0 0 4px #287da1;
+    box-shadow: 0 0 0 2px #c7ebf5, 0 0 0 4px var(--blue-black);
   }
 }
