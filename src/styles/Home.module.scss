@@ -63,8 +63,13 @@
       line-height: 1.2;
 
       strong {
+        color: var(--blue-main);
+      }
+
+      strong2 {
         color: var(--blue-black);
       }
+
     }
 
     p {
