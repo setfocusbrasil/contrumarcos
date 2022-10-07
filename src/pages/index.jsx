@@ -57,7 +57,7 @@ export default function Home() {
         <div className={`mainContainer ${styles.heroWrap}`}>
           <section className={styles.leftContent}>
             <h1 className="title" data-aos="fade-up">
-              Um atendimento personalizado faz toda a <strong2>diferença</strong2>
+              Um atendimento personalizado faz toda a <strong>diferença</strong>
             </h1>
 
           
