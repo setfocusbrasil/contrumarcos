@@ -107,7 +107,8 @@ export default function Home() {
          <p><strong>Conheça nossas Lojas</strong></p>  
         </div> */}
 
-       
+        <div className={styles.aboutContent}>
+         
 
           <div className={styles.aboutRightContent} data-aos="fade-up">
             <h3>
@@ -120,9 +121,7 @@ export default function Home() {
               Ver Mais
             </Button>
           </div>
-        </div>
-
-        <div className={styles.aboutContent}>
+          
           <div className={styles.imgAbout} data-aos="fade-up">
             <MyImage
               src="/images/fachada.jpg"
@@ -133,6 +132,8 @@ export default function Home() {
             />
           </div>
 
+
+        </div>
       </section>
 
       {/*  <section className={styles.treatments}>
