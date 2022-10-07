@@ -24,24 +24,24 @@ export default function Home() {
     gtag.event({
       action: "agendar_consulta",
       category: "marcar_consulta_whatsapp",
-      label: "Agendar Consulta pelo Whatsapp",
-      value: "Marcar consulta",
+      label: "Faça m Orçamento",
+      value: "Orçamento",
     });
   }
 
   return (
     <>
       <Head>
-        <title>Home | Clínica Odontológica - Laís Coneglian Dutra</title>
+        <title>Home | Eletro Santa Clara</title>
         <meta
           name="description"
-          content="Clínica Odontológica em Lençóis Paulista com Harmonização Facial - dra. Laís Coneglian Dutra"
+          content="Eletro Santa Clara - Referência em Qualidade e Ótimos Preços em Lençóis Pta e Região"
         />
         <meta
           name="keywords"
           content="Dentista, Clínica Odontológica, Dentista em Lençóis Paulista, Harmonização Facial, Clareamento Dental, Clínica Odontológica em Lençóis Paulista"
         />
-        <meta name="author" content="dra. Laís Coneglian Dutra" />
+        <meta name="author" content="Santa Clara" />
 
         <script async src="//static.zotabox.com/4/c/4c5c05a95fe476cec4705911aa442f5d/widgets.js"></script>
       </Head>
@@ -70,10 +70,10 @@ export default function Home() {
             >
               <Button
                 onClick={agendarConsulta}
-                link="https://wa.me/5514981472951"
+                link="https://wa.me/5514981189197"
               >
                 <img src="/icons/whatsIcon.svg" alt="whatsapp" />
-                Agendar Consulta
+                Fale com nossos Vendedores
               </Button>
               {/* <span>
                 Ou nos ligue: <strong>(14) 3264-9999</strong>
