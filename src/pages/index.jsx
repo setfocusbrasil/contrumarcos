@@ -61,21 +61,15 @@ export default function Home() {
             </h1>
 
             <h3>
-              Loja Referência em Qualidade de Materiais Elétricos em <strong>Lençóis Paulista e Região.</strong>
-            </h3>
-            
-            <p data-aos="fade-up" data-aos-delay="200">
-              Nossa missão é entregar qualidade e preço baixo para proporcionar
+            Nossa missão é entregar qualidade e preço baixo para proporcionar
               máxima satisfação aos nossos Clientes.
-            </p>
-           
-            <p data-aos="fade-up" data-aos-delay="200">
-            <strong>Equipe Qualificada </strong>
-            </p>
+            </h3>
 
             <p data-aos="fade-up" data-aos-delay="200">
-            Equipe treinada e com experiência no mercado, oferecendo sempre a melhor solução para você! 
+              
             </p>
+           
+  
             <div
               className={styles.btnWrap}
               data-aos="fade-up"
