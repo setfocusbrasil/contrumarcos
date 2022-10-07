@@ -75,6 +75,14 @@
     p {
       margin: var(--s32) 0 var(--s64) 0;
       line-height: 1.5;
+      strong {
+        color: var(--blue-main);
+      }
+
+      strong2 {
+        color: var(--blue-black);
+      }
+
     }
   }
 }
