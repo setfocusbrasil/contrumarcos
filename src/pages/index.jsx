@@ -60,8 +60,8 @@ export default function Home() {
               A Harmonia da Face Começa pelo <strong>Sorriso</strong>
             </h1>
             <p data-aos="fade-up" data-aos-delay="200">
-              Nossa missão é entregar saúde aliada a estética para proporcionar
-              máxima satisfação e bem-estar aos pacientes.
+              Nossa missão é entregar qualidade e preço baixo para proporcionar
+              máxima satisfação aos nossos Clientes.
             </p>
             <div
               className={styles.btnWrap}
@@ -114,8 +114,7 @@ export default function Home() {
 
           <div className={styles.aboutRightContent} data-aos="fade-up">
             <h3>
-              Clínica odontológica focada em estética do sorriso e Harmonização
-              facial em <strong>Lençóis Paulista.</strong>
+              Loja Referência em Qualidade de Materiais Elétricos em <strong>Lençóis Paulista e Região.</strong>
             </h3>
             <p>
               Clínica que trouxe um conceito único e inovador para Lençóis
