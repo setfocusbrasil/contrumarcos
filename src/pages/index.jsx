@@ -66,6 +66,9 @@ export default function Home() {
            
             <p data-aos="fade-up" data-aos-delay="200">
             <strong>Equipe Qualificada </strong>
+
+            
+            <p data-aos="fade-up" data-aos-delay="200"></p>
             Equipe treinada e com experiência no mercado, oferecendo sempre a melhor solução para você! 
             </p>
 
