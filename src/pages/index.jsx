@@ -66,9 +66,10 @@ export default function Home() {
             </p>
            
             <p data-aos="fade-up" data-aos-delay="200">
-            <h2>Equipe Qualificada</h2> 
+            Equipe Qualificada 
             Equipe treinada e com experiência no mercado, oferecendo sempre a melhor solução para você! 
             </p>
+
             <p data-aos="fade-up" data-aos-delay="200">
               Nossa missão é entregar qualidade e preço baixo para proporcionar
               máxima satisfação aos nossos Clientes.
