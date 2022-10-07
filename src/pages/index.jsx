@@ -102,7 +102,7 @@ export default function Home() {
 
       <section className={`${styles.about} mainContainer`}>
         <div data-aos="fade-down">
-         <Title font color="blue" title="junior" subtitle="Conheça nossas Lojas" /> 
+         <Title color="blue" title="junior" subtitle="Conheça nossas Lojas" /> 
         </div>
 
         <div className={styles.aboutContent}>
