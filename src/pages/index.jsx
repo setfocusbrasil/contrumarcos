@@ -98,14 +98,14 @@ export default function Home() {
 
       <section className={`${styles.about} mainContainer`}>
         <div data-aos="fade-down">
-          <Title title="Sobre a Loja" subtitle="Conheça nossa Loja" />
+          <Title title="" subtitle="Conheça nossas Lojas" />
         </div>
 
         <div className={styles.aboutContent}>
           <div className={styles.imgAbout} data-aos="fade-up">
             <MyImage
               src="/images/fachada.jpg"
-              alt="Paciente Sorrindo na clínica"
+              alt="Clientes sendo atendido"
               width="540"
               height="500"
               left
@@ -117,10 +117,7 @@ export default function Home() {
               Loja Referência em Qualidade de Materiais Elétricos em <strong>Lençóis Paulista e Região.</strong>
             </h3>
             <p>
-              Clínica que trouxe um conceito único e inovador para Lençóis
-              Paulista unindo saúde e estética, do sorriso e da face. Com o
-              atendimento individualizado e personalizado para proporcionar o
-              maior conforto e privacidade para os pacientes.
+            A Eletro Santa Clara foi fundada em Lençóis Paulista, no interior do estado de São Paulo, há mais de três décadas, com o principal objetivo de servir o cidadão lençoense com a mais completa loja de materiais elétricos da cidade. Essa visão inicial foi transformada com o tempo e o crescimento da loja, principalmente com a abertura de sua primeira filial, na Rodovia Osny Mateus. Pois agora somado aos preços baixos e atendimento de excelência, a facilidade de acesso foi mais um atrativo para clientes de toda a região.
             </p>
             <Button link="/clinica" target="_self">
               Ver Mais
