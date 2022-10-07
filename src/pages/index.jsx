@@ -59,6 +59,11 @@ export default function Home() {
             <h1 className="title" data-aos="fade-up">
               Um atendimento personalizado faz toda a Diferença
             </h1>
+
+            <h3>
+              Loja Referência em Qualidade de Materiais Elétricos em <strong>Lençóis Paulista e Região.</strong>
+            </h3>
+            
             <p data-aos="fade-up" data-aos-delay="200">
               Nossa missão é entregar qualidade e preço baixo para proporcionar
               máxima satisfação aos nossos Clientes.
