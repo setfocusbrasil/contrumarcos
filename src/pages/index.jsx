@@ -123,7 +123,9 @@ export default function Home() {
             <h3>
               <strong2>Referência em Qualidade de Materiais Elétricos em</strong2> <strong>Lençóis Paulista e Região.</strong>
             </h3>
-           
+            <p>
+            
+            </p>
             <Button link="/clinica" target="_self">
               Ver Mais
             </Button>
