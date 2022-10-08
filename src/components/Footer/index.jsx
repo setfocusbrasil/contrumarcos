@@ -19,14 +19,14 @@ export const Footer = ({ children, link = "/" }) => {
           </Link>
 
           <div>
-            <h3>Clínica Dra. Laís C. Dutra</h3>
+            <h3>Eletro Santa Clara - Loja 1</h3>
             <ul>
-              <li>(14) 981472951</li>
-              <li>dralaisconegliandutra@gmail.com</li>
-              <li>R. Cel. Joaquim Anselmo Martins, 851</li>
+              <li>(14) 3269-1057</li>
+              <li>vendas@eletrosantaclara.com.br</li>
+              <li>Av. Brasil, 583- Centro</li>
               <li>Lençóis Paulista - SP</li>
               <li className={styles.social}>
-                <Link href="https://www.instagram.com/dralaiscdutra">
+                <Link href="https://www.instagram.com/eletrosantaclara">
                   <a target="_blank">
                     <Image
                       src="/icons/instaFooter.svg"
@@ -36,7 +36,7 @@ export const Footer = ({ children, link = "/" }) => {
                     />
                   </a>
                 </Link>
-                <Link href="https://www.facebook.com/dralaiscdutra">
+                <Link href="https://www.facebook.com/eletrosantaclara/">
                   <a target="_blank">
                     <Image
                       src="/icons/faceFooter.svg"
@@ -75,7 +75,7 @@ export const Footer = ({ children, link = "/" }) => {
       </footer>
 
       <p className={`${styles.copy}`}>
-        2022 © Dra. Lais Coneglian Dutra. Todos os direitos reservados.
+        2022 © Eletro Santa Clara. Todos os direitos reservados.
       </p>
     </>
   );
