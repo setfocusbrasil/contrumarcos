@@ -61,9 +61,9 @@ export const Footer = ({ children, link = "/" }) => {
           </div>
 
           <div>
-            <h3>Responsável Técnica</h3>
-            <p>Dra. Laís Coneglian Dutra</p>
-            <p>CRO SP 135950</p>
+            <h3>Eletro Santa Clara - loja 2</h3>
+            <p> Rua Pastor Natalino Paulino, nº. 260, Vila Santa Cecília</p>
+            <p>Fone 14 3269.1717 - 14 98118.8248</p>
           </div>
 
           <div>
