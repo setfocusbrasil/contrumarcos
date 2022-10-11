@@ -71,9 +71,9 @@ export const Header = () => {
             <Link href="/contato">
               <a>Localização</a>
             </Link>
-           {/*  <Link href="/contato">
+            <Link href="/contato">
               <a>Contato</a>
-          </Link> */}
+            </Link>
           </nav>
 
           <div className={styles.btnAgendar}>
@@ -117,9 +117,9 @@ export const Header = () => {
               </Link>
             </li>
             <li onClick={closeMenu}>
-  {/*  <Link href="/contato">
+            <Link href="/contato">
               <a>Contato</a>
-          </Link> */}
+            </Link>
             </li>
             <li onClick={agendarConsultaMenu}>
               <Link href="https://wa.me/551981189197">
