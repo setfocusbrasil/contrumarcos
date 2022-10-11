@@ -123,7 +123,12 @@ export default function Contato() {
           </div>
              
           
+<<<<<<< HEAD
           <div style="margin:0 auto;" id="zbwid-c4c3d6be"></div>
+=======
+
+
+>>>>>>> parent of 1588e39 (java)
           
            
           <form className={styles.contactRight} onSubmit={handleSubmit}>
