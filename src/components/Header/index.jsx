@@ -72,7 +72,7 @@ export const Header = () => {
               <a>Localização</a>
             </Link>
             <Link href="/contato">
-              <a>Contato</a>
+              <a>Contato A</a>
             </Link>
           </nav>
 
