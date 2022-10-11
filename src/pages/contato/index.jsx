@@ -108,7 +108,7 @@ export default function Contato() {
                     <img src="/icons/instaContato.svg" alt="Instagram" />
                   </a>
                 </Link>
-                <Link href="https://www.facebook.com/eletrosantaclara/">
+                <Link href="https://www.facebook.com/eletrosantaclara">
                   <a target="_blank">
                     <img src="/icons/faceContato.svg" alt="Facebook" />
                   </a>
