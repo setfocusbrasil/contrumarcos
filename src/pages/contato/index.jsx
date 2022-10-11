@@ -63,6 +63,8 @@ export default function Contato() {
           "
         />
         <meta name="author" content="Eletro Santa Clara" />
+
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjSTtlYxnSmk8Or_ABdz7PkN0-GwRURxERgdnjYPYOjin4Zg/viewform?embedded=true" width="640" height="947" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
       </Head>
 
       <HeaderPage subtitle="Entre em contato conosco" title="Nosso Contato." />
@@ -119,7 +121,7 @@ export default function Contato() {
             </ul>
           </div>
              
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjSTtlYxnSmk8Or_ABdz7PkN0-GwRURxERgdnjYPYOjin4Zg/viewform?embedded=true" width="640" height="947" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+          
 
 
           
