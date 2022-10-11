@@ -17,7 +17,7 @@
     padding: 60px var(--s32);
 
     ul li p {
-      color: var(--blue-black);
+      color: var(--white);
       & + p {
         margin-top: 14px;
       }
@@ -118,7 +118,7 @@
       gap: var(--s18);
 
       &:hover {
-        box-shadow: 0 0 0 2px #d5f6ff, 0 0 0 4px var(--blue-black);
+        box-shadow: 0 0 0 2px #02323f, 0 0 0 4px var(--blue-black);
       }
 
       &:disabled {
