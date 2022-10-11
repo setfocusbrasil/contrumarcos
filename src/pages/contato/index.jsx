@@ -64,6 +64,7 @@ export default function Contato() {
         />
         <meta name="author" content="Eletro Santa Clara" />
 
+        <script async src="//static.zotabox.com/b/7/b7502fb6f5f765b9614401000a1c1159/widgets.js"></script>
         
       </Head>
 
@@ -102,12 +103,12 @@ export default function Contato() {
                 <p>08-12h sáb</p>
               </li>
               <li className={styles.social}>
-                <Link href="https://www.instagram.com/dralaiscdutra">
+                <Link href="https://www.instagram.com/eletrosantaclara">
                   <a target="_blank">
                     <img src="/icons/instaContato.svg" alt="Instagram" />
                   </a>
                 </Link>
-                <Link href="https://www.facebook.com/dralaiscdutra">
+                <Link href="https://www.facebook.com/eletrosantaclara/">
                   <a target="_blank">
                     <img src="/icons/faceContato.svg" alt="Facebook" />
                   </a>
@@ -122,7 +123,7 @@ export default function Contato() {
           </div>
              
           
-
+          <div style="margin:0 auto;" id="zbwid-c4c3d6be"></div>
           
            
           <form className={styles.contactRight} onSubmit={handleSubmit}>
