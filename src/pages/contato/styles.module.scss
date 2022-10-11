@@ -102,7 +102,7 @@
     }
 
     .button {
-      background-color: var(--blue-main);
+      background-color: var(--blue-black);
       color: var(--white);
       font-size: var(--s18);
       font-weight: bold;
@@ -118,7 +118,7 @@
       gap: var(--s18);
 
       &:hover {
-        box-shadow: 0 0 0 2px #d5f6ff, 0 0 0 4px var(--blue-main);
+        box-shadow: 0 0 0 2px #d5f6ff, 0 0 0 4px var(--blue-black);
       }
 
       &:disabled {
