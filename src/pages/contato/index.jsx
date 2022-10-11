@@ -52,19 +52,21 @@ export default function Contato() {
   return (
     <>
       <Head>
-        <title>Contato | Clínica Odontológica - Laís Coneglian Dutra</title>
+        <title>Contato | Eletro Santa Clara</title>
         <meta
           name="description"
-          content="Clínica Odontológica em Lençóis Paulista com Harmonização Facial - dra. Laís Coneglian Dutra"
+          content="Eletro Santa Clara"
         />
         <meta
           name="keywords"
-          content="Dentista, Clínica Odontológica, Dentista em Lençóis Paulista, Harmonização Facial, Clareamento Dental, Clínica Odontológica em Lençóis Paulista"
+          content="eletro santa clara, materiais elétricos, média tensão,ferragens, alta tensão, tomada, interruptor, disjuntor, contator, para-raio, poste, transformador
+          "
         />
-        <meta name="author" content="dra. Laís Coneglian Dutra" />
+        <meta name="author" content="Eletro Santa Clara" />
+        <script async src="//static.zotabox.com/b/7/b7502fb6f5f765b9614401000a1c1159/widgets.js"></script>
       </Head>
 
-      <HeaderPage subtitle="Entre em contato com nós" title="Nosso Contato." />
+      <HeaderPage subtitle="Entre em contato conosco" title="Nosso Contato." />
 
       <main className={`${styles.contact}`}>
         <section className="mainContainer">
