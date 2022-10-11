@@ -20,8 +20,8 @@ export default async (req, res) => {
     }
 
     const message = {
-      from: 'agenciasetfocus@gmail.com',
-      to: 'mvc.marcosmiguel@gmail.com',
+      from: 'vendas01@eletrosantaclara.com.br',
+      to: 'vendas@eletrosantaclara.com.br',
       subject: `[Site] Nova Mensagem - ${name}`,
       html: `<p><b>Email:</b> ${senderMail}<br /><b>Enviado Por: </b>${name} <br /><br /><b>Mensagem:</b> ${content}</p>`,
       replyTo: senderMail,
