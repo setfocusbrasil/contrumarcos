@@ -20,7 +20,7 @@ export default async (req, res) => {
     }
 
     const message = {
-      from: email,
+      from: 'agenciasetfocus@gmail.com',
       to: 'mvc.marcosmiguel@gmail.com',
       subject: `[Site] Nova Mensagem - ${name}`,
       html: `<p><b>Email:</b> ${senderMail}<br /><b>Enviado Por: </b>${name} <br /><br /><b>Mensagem:</b> ${content}</p>`,
