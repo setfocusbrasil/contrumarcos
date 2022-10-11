@@ -138,10 +138,8 @@ export default function Contato() {
             )}
 
             <div className={styles.inputWrap}>
-            <strong2>Bacon 2000</strong2>
-              <div className={styles.input}>
-              
-                <label htmlFor="name">Nome</label>
+                <div className={styles.input}>
+                <label htmlFor="name">|<strong2>Nome</strong2></label>
                 <input
                   type="text"
                   name="name"
