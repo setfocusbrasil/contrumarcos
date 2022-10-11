@@ -120,6 +120,12 @@ export default function Contato() {
             </ul>
           </div>
 
+
+
+          <div className={styles.inputWrap}>
+                <strong2>Bacon</strong2>
+          </div>  
+
            {/*  <form className={styles.contactRight} onSubmit={handleSubmit}>
             {!!submitted && (
               <span className={styles.successMessage}>
