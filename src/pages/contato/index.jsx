@@ -120,7 +120,7 @@ export default function Contato() {
             </ul>
           </div>
 
-          <form className={styles.contactRight} onSubmit={handleSubmit}>
+           {/*  <form className={styles.contactRight} onSubmit={handleSubmit}>
             {!!submitted && (
               <span className={styles.successMessage}>
                 Mensagem enviada com sucesso! Em breve entraremos em contato.
@@ -175,7 +175,7 @@ export default function Contato() {
                 ENVIAR MENSAGEM
               </button>
             )}
-          </form>
+          </form> */}
         </section>
       </main>
 
