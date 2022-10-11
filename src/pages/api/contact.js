@@ -21,7 +21,7 @@ export default async (req, res) => {
 
     const message = {
       from: email,
-      to: process.env.MYEMAIL,
+      to: 'mvc.marcosmiguel@gmail.com',
       subject: `[Site] Nova Mensagem - ${name}`,
       html: `<p><b>Email:</b> ${senderMail}<br /><b>Enviado Por: </b>${name} <br /><br /><b>Mensagem:</b> ${content}</p>`,
       replyTo: senderMail,
