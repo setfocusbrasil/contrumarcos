@@ -120,9 +120,7 @@ export default function Contato() {
           </div>
              
 
-          <div className={styles.inputWrap}>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfjSTtlYxnSmk8Or_ABdz7PkN0-GwRURxERgdnjYPYOjin4Zg/viewform?embedded=true" width="640" height="947" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-              </div>
+
 
           
            
