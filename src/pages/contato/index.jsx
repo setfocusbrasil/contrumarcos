@@ -75,7 +75,7 @@ export default function Contato() {
               <li>
                 <p>
                   <img src="/icons/localizacaoIcon.svg" alt="Localização" />
-                  R. Cel. Joaquim Anselmo Martins, 851 - Centro
+                  Av. Brasil, 583 - Centro
                 </p>
                 <p>Lençóis Paulista - SP</p>
               </li>
@@ -83,13 +83,13 @@ export default function Contato() {
               <li className={styles.separador}>
                 <p>
                   <img src="/icons/emailIcon.svg" alt="email" />
-                  dralaisconegliandutra@gmail.com
+                  vendas@eletrosantaclara.com.br
                 </p>
               </li>
               <li>
                 <p>
                   <img src="/icons/telefoneIcon.svg" alt="Telefone" />
-                  +55 (14) 981472951
+                  +55 (14) 3269-1057
                 </p>
                 {/* <p>+55 (14) 99123-4567</p> */}
               </li>
@@ -101,12 +101,12 @@ export default function Contato() {
                 <p>08-12h sáb</p>
               </li>
               <li className={styles.social}>
-                <Link href="https://www.instagram.com/dralaiscdutra">
+                <Link href="https://www.instagram.com/eletrosantaclara ">
                   <a target="_blank">
                     <img src="/icons/instaContato.svg" alt="Instagram" />
                   </a>
                 </Link>
-                <Link href="https://www.facebook.com/dralaiscdutra">
+                <Link href="https://www.facebook.com/eletrosantaclara">
                   <a target="_blank">
                     <img src="/icons/faceContato.svg" alt="Facebook" />
                   </a>
