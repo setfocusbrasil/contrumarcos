@@ -122,11 +122,9 @@ export default function Contato() {
 
 
 
-          <div className={styles.inputWrap}>
-                <strong2>Bacon</strong2>
-          </div>  
+          
 
-           {/*  <form className={styles.contactRight} onSubmit={handleSubmit}>
+             <form className={styles.contactRight} onSubmit={handleSubmit}>
             {!!submitted && (
               <span className={styles.successMessage}>
                 Mensagem enviada com sucesso! Em breve entraremos em contato.
@@ -141,6 +139,7 @@ export default function Contato() {
 
             <div className={styles.inputWrap}>
               <div className={styles.input}>
+              <strong2>Bacon</strong2>
                 <label htmlFor="name">Nome</label>
                 <input
                   type="text"
@@ -181,7 +180,7 @@ export default function Contato() {
                 ENVIAR MENSAGEM
               </button>
             )}
-          </form> */}
+          </form> 
         </section>
       </main>
 
