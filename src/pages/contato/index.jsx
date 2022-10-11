@@ -52,19 +52,20 @@ export default function Contato() {
   return (
     <>
       <Head>
-        <title>Contato | Clínica Odontológica - Laís Coneglian Dutra</title>
+        <title>Contato | Eletro Santa Clara</title>
         <meta
           name="description"
-          content="Clínica Odontológica em Lençóis Paulista com Harmonização Facial - dra. Laís Coneglian Dutra"
+          content=""
         />
         <meta
           name="keywords"
-          content="Dentista, Clínica Odontológica, Dentista em Lençóis Paulista, Harmonização Facial, Clareamento Dental, Clínica Odontológica em Lençóis Paulista"
+          content="eletro santa clara, materiais elétricos, média tensão,ferragens, alta tensão, tomada, interruptor, disjuntor, contator, para-raio, poste, transformador
+          "
         />
-        <meta name="author" content="dra. Laís Coneglian Dutra" />
+        <meta name="author" content="Eletro Santa Clara" />
       </Head>
 
-      <HeaderPage subtitle="Entre em contato com nós" title="Nosso Contato." />
+      <HeaderPage subtitle="Entre em contato conosco" title="Nosso Contato." />
 
       <main className={`${styles.contact}`}>
         <section className="mainContainer">
@@ -73,7 +74,7 @@ export default function Contato() {
               <li>
                 <p>
                   <img src="/icons/localizacaoIcon.svg" alt="Localização" />
-                  R. Cel. Joaquim Anselmo Martins, 851 - Centro
+                  Av. Brasil, 583 - Centro
                 </p>
                 <p>Lençóis Paulista - SP</p>
               </li>
@@ -81,13 +82,13 @@ export default function Contato() {
               <li className={styles.separador}>
                 <p>
                   <img src="/icons/emailIcon.svg" alt="email" />
-                  dralaisconegliandutra@gmail.com
+                  vendas@eletrosantaclara.com.br
                 </p>
               </li>
               <li>
                 <p>
                   <img src="/icons/telefoneIcon.svg" alt="Telefone" />
-                  +55 (14) 981472951
+                  +55 (14) 3269-1057
                 </p>
                 {/* <p>+55 (14) 99123-4567</p> */}
               </li>
@@ -117,8 +118,15 @@ export default function Contato() {
               </li>
             </ul>
           </div>
+             
 
-          <form className={styles.contactRight} onSubmit={handleSubmit}>
+          <div className={styles.inputWrap}>
+            <li>  https://forms.gle/VrtvuL7BzXgxAjFq8 </li> 
+              </div>
+
+          
+           
+         {/*  <form className={styles.contactRight} onSubmit={handleSubmit}>
             {!!submitted && (
               <span className={styles.successMessage}>
                 Mensagem enviada com sucesso! Em breve entraremos em contato.
@@ -174,6 +182,7 @@ export default function Contato() {
               </button>
             )}
           </form>
+          */}
         </section>
       </main>
 
