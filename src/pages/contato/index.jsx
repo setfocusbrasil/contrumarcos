@@ -121,10 +121,7 @@ export default function Contato() {
             </ul>
           </div>
              
-          <div id="conteudo"></div>
-          <script type="text/javascript">
-           document.getElementById("conteudo").innerHTML = '<iframe src="https://assets.b9.com.br/wp-content/uploads/2019/12/https___hypebest.com_image_2019_12_coca-cola-insiders-club-subscription-service-info-1-1170x720.jpg"></iframe>';
-         </script>
+          
 
           
            
