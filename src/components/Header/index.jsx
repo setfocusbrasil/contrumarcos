@@ -16,7 +16,7 @@ export const Header = () => {
     gtag.event({
       action: "agendar_consulta_cabeçalho",
       category: "marcar_consulta_whatsapp_cabeçalho",
-      label: "Agendar Consulta pelo Whatsapp",
+      label: "Orçamento pelo Whatsapp",
       value: "Marcar consulta",
     });
   }
@@ -26,7 +26,7 @@ export const Header = () => {
     gtag.event({
       action: "agendar_consulta_cabeçalho",
       category: "marcar_consulta_whatsapp_cabeçalho",
-      label: "Fale Conosco",
+      label: "Fale com nossos vendedores",
       value: "Fale Conosco",
     });
   }
@@ -81,7 +81,7 @@ export const Header = () => {
               link="https://wa.me/5514981189197"
             >
                <img src="/icons/whatsIcon.svg" alt="whatsapp" />
-              Fale Conosco
+              Fale com nossos vendedores
             </Button>
           </div>
         </div>
