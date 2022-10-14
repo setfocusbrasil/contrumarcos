@@ -62,13 +62,13 @@ export const Header = () => {
             <Link href="/">
               <a>Home</a>
             </Link>
-            <Link href="/tratamentos">
-              <a>Serviços</a>
+            <Link href="/">
+              <a>Produtos</a>
             </Link>
-            <Link href="/clinica">
+            <Link href="/">
               <a>A Empresa</a>
             </Link>
-            <Link href="/contato">
+            <Link href="/">
               <a>Localização</a>
             </Link>
 
@@ -100,24 +100,24 @@ export const Header = () => {
               </Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="/tratamentos">
+              <Link href="/">
                 <a>Serviços</a>
               </Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="/clinica">
+              <Link href="/">
                 <a>A Empresa</a>
               </Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="/contato">
+              <Link href="/">
                 <a>Localização</a>
               </Link>
             </li>
 
             <li onClick={agendarConsultaMenu}>
               <Link href="https://wa.me/551981189197">
-                <a target="_blank">Fale Conosco</a>
+                <a target="_blank">Fale com nossos vendedores</a>
               </Link>
             </li>
           </ul>
