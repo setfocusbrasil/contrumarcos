@@ -68,9 +68,7 @@ export const Header = () => {
             <Link href="/empresa">
               <a>A Empresa</a>
             </Link>
-            <Link href="/localizacao">
-              <a>Localização</a>
-            </Link>
+            
 
           </nav>
 
@@ -109,12 +107,7 @@ export const Header = () => {
                 <a>A Empresa</a>
               </Link>
             </li>
-            <li onClick={closeMenu}>
-              <Link href="/localizacao">
-                <a>Localização</a>
-              </Link>
-            </li>
-
+          
             <li onClick={agendarConsultaMenu}>
               <Link href="https://wa.me/551981189197">
                 <a target="_blank">Fale com nossos vendedores</a>
