@@ -23,7 +23,7 @@ export const Footer = ({ children, link = "/" }) => {
             <ul>
               <li>(14) 3269-1057</li>
               <li>vendas@eletrosantaclara.com.br</li>
-              <li>Av. Brasil, 583- Centro</li>
+              <li>Av. Brasil, 589- Centro</li>
               <li>Lençóis Paulista - SP</li>
               <li className={styles.social}>
                 <Link href="https://www.instagram.com/eletrosantaclara">
