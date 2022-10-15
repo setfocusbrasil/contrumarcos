@@ -100,8 +100,8 @@ export const Header = () => {
               </Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="/">
-                <a>Serviços</a>
+              <Link href="/produtos">
+                <a>produtos</a>
               </Link>
             </li>
             <li onClick={closeMenu}>
