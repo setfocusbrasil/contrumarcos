@@ -235,6 +235,24 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato1.png"
+            alt="Financeiro"
+            width="350"
+            height="279"
+            left
+          />
+          <h3>Financeiro - Flávia</h3>
+          <div className={styles.description}>
+            <p>
+            cobranca3@eletrosantaclara.com.br
+            </p>
+          </div>
+        </div>
+
+
+
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/contato1.png"
             alt="Vendas"
             width="350"
             height="279"
