@@ -283,7 +283,7 @@ export default function Tratamentos() {
           </li>
           <li data-aos="zoom-in-up">
             <Image
-              src="/images/produto2.jpeg"
+              src="/images/produto2.png"
               alt="Produtos em Destaque"
               width={460}
               height={390}
@@ -292,7 +292,7 @@ export default function Tratamentos() {
           </li>
           <li data-aos="zoom-in-up">
             <Image
-              src="/images/produto3.jpeg"
+              src="/images/produto3.png"
               alt="Produtos em Destaque"
               width={460}
               height={390}
@@ -301,7 +301,7 @@ export default function Tratamentos() {
           </li>
           <li data-aos="zoom-in-up">
             <Image
-              src="/images/produto4.jpeg"
+              src="/images/produto4.png"
               alt="Produtos em Destaque"
               width={460}
               height={390}
@@ -310,7 +310,7 @@ export default function Tratamentos() {
           </li>
           <li data-aos="zoom-in-up">
             <Image
-              src="/images/produto5.jpeg"
+              src="/images/produto5.png"
               alt="Produtos em Destaque"
               width={460}
               height={390}
@@ -319,7 +319,7 @@ export default function Tratamentos() {
           </li>
           <li data-aos="zoom-in-up">
             <Image
-              src="/images/produto6.jpeg"
+              src="/images/produto6.png"
               alt="Produtos em Destaque"
               width={460}
               height={390}
