@@ -54,15 +54,15 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/contato1.png"
+            src="/images/contato2.png"
             alt="Clareamento dental"
             width="350"
             height="279"
           />
-          <h3>Clareamento à Laser</h3>
+          <h3>Vendas</h3>
           <div className={styles.description}>
             <p>
-            O agente clareador é aplicado em cada dente e o calor gerado por um laser aumenta sua eficácia e, ao mesmo tempo, acelera o processo. Esse procedimento usa um gel clareador potente, ativado e intensificado pelo laser, proporcionando resultados rápidos e significativos.
+            Gabriel
             </p>
             <p>
              
