@@ -185,7 +185,7 @@ export default function Tratamentos() {
           <h3>Luminárias</h3>
           <div className={styles.description}>
             <p>
-            Qual quem não abre mão da elegância e além de tudo ter segurança e economia em sua residência. Toda linha de luminárias e plafons a pronta entrega.
+            Pra quem não abre mão da elegância e além de tudo ter segurança e economia em sua residência. Toda linha de luminárias e plafons a pronta entrega.
             </p>
           </div>
         </div>
