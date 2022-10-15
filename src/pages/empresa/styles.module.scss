@@ -42,7 +42,7 @@
 
   .photosSlider {
     margin-top: 60px;
-
+    margin-left: var(--s32);
     ul {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
