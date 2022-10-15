@@ -44,7 +44,7 @@ export default function Tratamentos() {
           <h3>Chuveiros</h3>
           <div className={styles.description}>
             <p>
-            Toda linha de chuveiros e duchas..
+            Para transformar os seus banhos em momentos de puro relaxamento e descanso dispomos de toda linha de chuveiros e duchas.
             </p>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function Tratamentos() {
           <h3>Fios e Cabos</h3>
           <div className={styles.description}>
             <p>
-            Toda linha de fios e cabos.
+            Fios e cabos elétricos certificados pelo INMETRO. Garanta a segurança da sua obra!
             </p>
             <p>
              
@@ -82,7 +82,7 @@ export default function Tratamentos() {
           <h3>Conduletes</h3>
           <div className={styles.description}>
             <p>
-            Toda linha de conduletes e acessórios.
+            Se é de conexão e condu~ção que voê precisaToda nós dispomos de toda linha de conduletes e acessórios.
             </p>
           </div>
         </div>
@@ -100,7 +100,7 @@ export default function Tratamentos() {
           <h3>Disjuntores</h3>
           <div className={styles.description}>
             <p>
-            Toda linha de disjuntores, disjuntor-motor, contatores e relês.
+            A palavra chave desde a linha residêncial até à Industra 4.0 é "Segurança". Por isso dispomos de toda linha de disjuntores, disjuntor-motor, contatores e relês das mais conceituadas marcas do mercado.
             </p>
             <p>
               
@@ -121,7 +121,7 @@ export default function Tratamentos() {
           <h3>Eletrocalhas e Perfilados</h3>
           <div className={styles.description}>
             <p>
-            Toda linha de eletrocalhas, perfilados e acessórios.
+            Ótimas soluções para ambientes que precisam de uma solução pratica e economica para a condução de fios e cabos. Por isso temos toda linha de eletrocalhas, perfilados e acessórios.
             </p>
           </div>
         </div>
@@ -137,7 +137,7 @@ export default function Tratamentos() {
           <h3>Alta Tensão</h3>
           <div className={styles.description}>
             <p>
-            Transformadores, cabos multiplexados, chaves e acessórios.
+            Falou de força bruta conte com a gente. Média e Alta Tensão é o nosso DNA. Transformadores, cabos multiplexados, chaves e acessórios.
             </p>
           </div>
         </div>
@@ -153,7 +153,7 @@ export default function Tratamentos() {
           <h3>Interruptores e Tomadas</h3>
           <div className={styles.description}>
             <p>
-            Diversos modelos de interruptores e tomadas.
+            Pensou em um ótimo acabamento com qualidade e estilo você encontra aqui! Diversos modelos de interruptores e tomadas.
             </p>
           </div>
         </div>
@@ -169,7 +169,7 @@ export default function Tratamentos() {
           <h3>Lâmpadas</h3>
           <div className={styles.description}>
             <p>
-            Toda linha de lâmpadas e acessórios em LED e demais.
+            Seja qual for o ambiente, resdêncial ou industrial uma ótima e econômica iluminação faz toda a diferença. Por isso temos toda linha de lâmpadas, reatores e acessórios que atendem do residêncial ao industrial.
             </p>
           </div>
         </div>
@@ -185,7 +185,7 @@ export default function Tratamentos() {
           <h3>Luminárias</h3>
           <div className={styles.description}>
             <p>
-            Toda linha de luminárias e plafons.
+            Qual quem não abre mão da elegância e além de tudo ter segurança e economia em sua residência. Toda linha de luminárias e plafons a pronta entrega.
             </p>
           </div>
         </div>
@@ -201,7 +201,7 @@ export default function Tratamentos() {
           <h3>Lustres</h3>
           <div className={styles.description}>
             <p>
-            Grande variedade de lustres e pendentes.
+            Quer dar um toque de elegância e beleza ao seu lar? Conte com a grande variedade de lustres e pendentes.
             </p>
           </div>
         </div>
