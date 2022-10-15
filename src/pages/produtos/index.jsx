@@ -269,13 +269,13 @@ export default function Tratamentos() {
       </main>
 
       <section className={styles.images}>
-        <Title title="Fotos" subtitle="Resultado dos Tratamentos" />
+        <Title title="Fotos" subtitle="Produtos em Destaque" />
 
         <ul className={`${styles.imagesContainer} mainContainer`}>
           <li data-aos="zoom-in-up">
             <Image
-              src="/images/resultado1.jpeg"
-              alt="Resultado dos Tratamentos"
+              src="/images/produto1.jpeg"
+              alt="Produtos em Destaque"
               width={460}
               height={390}
               objectFit="cover"
@@ -283,8 +283,8 @@ export default function Tratamentos() {
           </li>
           <li data-aos="zoom-in-up">
             <Image
-              src="/images/resultado2.jpeg"
-              alt="Resultado dos Tratamentos"
+              src="/images/produto2.jpeg"
+              alt="Produtos em Destaque"
               width={460}
               height={390}
               objectFit="cover"
@@ -292,8 +292,8 @@ export default function Tratamentos() {
           </li>
           <li data-aos="zoom-in-up">
             <Image
-              src="/images/resultado3.jpeg"
-              alt="Resultado dos Tratamentos"
+              src="/images/produto3.jpeg"
+              alt="Produtos em Destaque"
               width={460}
               height={390}
               objectFit="cover"
@@ -301,8 +301,8 @@ export default function Tratamentos() {
           </li>
           <li data-aos="zoom-in-up">
             <Image
-              src="/images/resultado4.jpeg"
-              alt="Resultado dos Tratamentos"
+              src="/images/produto4.jpeg"
+              alt="Produtos em Destaque"
               width={460}
               height={390}
               objectFit="cover"
@@ -310,8 +310,8 @@ export default function Tratamentos() {
           </li>
           <li data-aos="zoom-in-up">
             <Image
-              src="/images/resultado5.jpeg"
-              alt="Resultado dos Tratamentos"
+              src="/images/produto5.jpeg"
+              alt="Produtos em Destaque"
               width={460}
               height={390}
               objectFit="cover"
@@ -319,8 +319,8 @@ export default function Tratamentos() {
           </li>
           <li data-aos="zoom-in-up">
             <Image
-              src="/images/resultado6.jpeg"
-              alt="Resultado dos Tratamentos"
+              src="/images/produto6.jpeg"
+              alt="Produtos em Destaque"
               width={460}
               height={390}
               objectFit="cover"
