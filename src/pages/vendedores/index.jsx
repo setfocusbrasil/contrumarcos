@@ -55,7 +55,25 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/contato1.png"
+            src="/images/contato3.png"
+            alt="Compras"
+            width="350"
+            height="279"
+            left
+          />
+          <h3>Compras - Dione</h3>
+          <div className={styles.description}>
+            <p>
+            compras@eletrosantaclara.com.br
+            </p>
+          </div>
+        </div>
+
+
+
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/contato2.png"
             alt="Financeiro"
             width="350"
             height="279"
@@ -70,22 +88,7 @@ export default function Tratamentos() {
         </div>
 
 
-        <div className={styles.treatmentsItem} data-aos="fade-up">
-          <MyImage
-            src="/images/contato1.png"
-            alt="Compras"
-            width="350"
-            height="279"
-            left
-          />
-          <h3>Compras - Dione</h3>
-          <div className={styles.description}>
-            <p>
-            compras@eletrosantaclara.com.br
-            </p>
-          </div>
-        </div>
-
+ 
 
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
