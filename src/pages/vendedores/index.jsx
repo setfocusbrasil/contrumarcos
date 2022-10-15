@@ -44,10 +44,8 @@ export default function Tratamentos() {
           />
           <h3>Vendas</h3>
           <div className={styles.description}>
-            <p>
-            <Link href="vendas@eletrosantaclara.com.br">
-              <a>Felipe - vendas@eletrosantaclara.com.br</a>
-            </Link>  
+            <p>           
+              Felipe - vendas@eletrosantaclara.com.br
             </p>
           </div>
         </div>
@@ -77,18 +75,15 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato1.png"
-            alt="Profilaxia"
+            alt="vendas03@eletrosantaclara.com.br"
             width="350"
             height="279"
             left
           />
-          <h3>Profilaxia</h3>
+          <h3>Vendas</h3>
           <div className={styles.description}>
             <p>
-              É a famosa limpeza dental, que é feita com ultrassom para remoção
-              do tartaro, curetas, jato de bicarbonato e escova de robson.
-              Fundamental para prevenção de doenças bucais como carie,
-              gengivite, peridontite, mal hálito, entre outras...
+            Mario - vendas03@eletrosantaclara.com.br
             </p>
           </div>
         </div>
@@ -99,18 +94,14 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato1.png"
-            alt="Clareamento dental"
+            alt="vendas04@eletrosantaclara.com.br"
             width="350"
             height="279"
           />
-          <h3>Clareamento dental</h3>
+          <h3>Vendas</h3>
           <div className={styles.description}>
             <p>
-              Um dos serviços mais procurados por ser considerado um tratamento
-              pouco invasivo, muito seguro e com resultados incríveis para os
-              dentes. O dentista usa um gel que clareia a superfície dentaria e
-              o resultado pode ser visto logo após a sessão do clareamento a
-              laser.
+            Guilherme - vendas04@eletrosantaclara.com.br
             </p>
             <p>
               Nosso diferencial é o uso da laserterapia para controle da
@@ -271,7 +262,7 @@ export default function Tratamentos() {
         </div>
       </main>
 
-      <section className={styles.images}>
+      {/* <section className={styles.images}>
         <Title title="Fotos" subtitle="Resultado dos Tratamentos" />
 
         <ul className={`${styles.imagesContainer} mainContainer`}>
@@ -330,7 +321,7 @@ export default function Tratamentos() {
             />
           </li>
         </ul>
-      </section>
+      </section> */}
 
       <Footer />
     </>
