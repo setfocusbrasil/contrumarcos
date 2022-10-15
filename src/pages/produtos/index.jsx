@@ -145,17 +145,15 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/prod_6.png"
-            alt="Botulinica"
+            alt="Diversos modelos de interruptores e tomadas."
             width="350"
             height="279"
             left
           />
-          <h3>Toxina Botulinica</h3>
+          <h3>Interruptores e Tomadas</h3>
           <div className={styles.description}>
             <p>
-              Nosso queridinho é o mais procurado na área da harmonização
-              facial. Ele paralisa a musculatura temporariamente suavizando
-              linhas de expressão e prevenindo rugas.
+            Diversos modelos de interruptores e tomadas.
             </p>
           </div>
         </div>
@@ -163,17 +161,15 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/prod_7.png"
-            alt="Preenchimento facial"
+            alt="Toda linha de lâmpadas e acessórios em LED e demais."
             width="350"
             height="279"
             left
           />
-          <h3>Preenchimento facial com ácido hialuronico</h3>
+          <h3>Lâmpadas</h3>
           <div className={styles.description}>
             <p>
-              Pode ser feito no malar, mandibula e mento com o intuito de dar
-              volume onde é necessário melhorar o contorno deixando a face mais
-              harmoniosa, jovem e atraente.
+            Toda linha de lâmpadas e acessórios em LED e demais.
             </p>
           </div>
         </div>
@@ -181,16 +177,15 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/prod_8.png"
-            alt="Restauração"
+            alt="Toda linha de luminárias e plafons."
             width="350"
             height="279"
             left
           />
-          <h3>Restauração</h3>
+          <h3>Luminárias</h3>
           <div className={styles.description}>
             <p>
-              Feita com resina composta com o intuito de paralisar o avanço da
-              doença carie.
+            Toda linha de luminárias e plafons.
             </p>
           </div>
         </div>
@@ -198,17 +193,15 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/prod_9.png"
-            alt="Bioestimulador de colageno"
+            alt="Grande variedade de lustres e pendentes."
             width="350"
             height="279"
             left
           />
-          <h3>Bioestimulador de colageno</h3>
+          <h3>Lustres</h3>
           <div className={styles.description}>
             <p>
-              Procedimento injetável que visa tratar a flacidez da pele
-              rejuvenescendo o rosto dos pacientes através do estímulo natural
-              do colágeno, melhorando a firmeza e a colocação da pele.
+            Grande variedade de lustres e pendentes.
             </p>
           </div>
         </div>
@@ -216,18 +209,15 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/prod_10.png"
-            alt="Microagulhamento"
+            alt="Painéis de montagem e acessórios."
             width="350"
             height="279"
             left
           />
-          <h3>Microagulhamento</h3>
+          <h3>Painéis de montagem</h3>
           <div className={styles.description}>
             <p>
-              Procedimento feito com uma derma pen por meio do qual selecionamos
-              mesclas que penetram na pele com o intuito de entregar vitaminas,
-              estimular o colágeno, suavizar rugas, tratar manchas e melhorar a
-              qualidade da pele. Depois selamos a pele com um peeling químico.
+            Painéis de montagem e acessórios.
             </p>
           </div>
         </div>
@@ -247,12 +237,11 @@ export default function Tratamentos() {
         </div> */}
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
-          <MyImage src="/images/prod_11.png" alt="Peeling" width="350" height="279" left />
-          <h3>Peeling</h3>
+          <MyImage src="/images/prod_11.png" alt="Toda linha de plugs e tomadas industriais." width="350" height="279" left />
+          <h3>Plugs e tomadas industriais</h3>
           <div className={styles.description}>
             <p>
-              Um ativo que ajuda a remover manchas, estimular colágeno, suavizar
-              rugas, dar brilho e melhorar o aspecto da pele
+            Toda linha de plugs e tomadas industriais.
             </p>
           </div>
         </div>
