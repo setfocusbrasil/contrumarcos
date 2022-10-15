@@ -127,7 +127,21 @@ export default function Tratamentos() {
           </div>
         </div>
 
-
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/contato1.png"
+            alt="Contas a Receber"
+            width="350"
+            height="279"
+            left
+          />
+          <h3>Contas a Receber - João</h3>
+          <div className={styles.description}>
+            <p>
+            contasareceber2@eletrosantaclara.com.br
+            </p>
+          </div>
+        </div>
 
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
@@ -205,42 +219,8 @@ export default function Tratamentos() {
           </div>
         </div>
 
-        <div className={styles.treatmentsItem} data-aos="fade-up">
-          <MyImage
-            src="/images/contato1.png"
-            alt="Bioestimulador de colageno"
-            width="350"
-            height="279"
-            left
-          />
-          <h3>Bioestimulador de colageno</h3>
-          <div className={styles.description}>
-            <p>
-              Procedimento injetável que visa tratar a flacidez da pele
-              rejuvenescendo o rosto dos pacientes através do estímulo natural
-              do colágeno, melhorando a firmeza e a colocação da pele.
-            </p>
-          </div>
-        </div>
+ 
 
-        <div className={styles.treatmentsItem} data-aos="fade-up">
-          <MyImage
-            src="/images/contato1.png"
-            alt="Microagulhamento"
-            width="350"
-            height="279"
-            left
-          />
-          <h3>Microagulhamento</h3>
-          <div className={styles.description}>
-            <p>
-              Procedimento feito com uma derma pen por meio do qual selecionamos
-              mesclas que penetram na pele com o intuito de entregar vitaminas,
-              estimular o colágeno, suavizar rugas, tratar manchas e melhorar a
-              qualidade da pele. Depois selamos a pele com um peeling químico.
-            </p>
-          </div>
-        </div>
 
         {/* <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
