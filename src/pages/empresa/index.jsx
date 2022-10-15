@@ -67,7 +67,7 @@ export default function Clinica() {
               <Image
                 src="/images/loja2.jpg"
                 alt="Foto Loja"
-                width="1216"
+                width="600"
                 height="375"
                 objectFit="cover"
               />
@@ -112,7 +112,7 @@ export default function Clinica() {
               <Image
                 src="/images/loja7.jpg"
                 alt="Foto Loja"
-                width="1216"
+                width="600"
                 height="375"
                 objectFit="cover"
               />
