@@ -44,7 +44,10 @@ export default function Tratamentos() {
           <h3>Vendas</h3>
           <div className={styles.description}>
             <p>
-            Felipe
+            <Link href="vendas@eletrosantaclara.com.br">
+              <a>Felipe - vendas@eletrosantaclara.com.br</a>
+            </Link>  
+            Felipe - vendas@eletrosantaclara.com.br
             </p>
           </div>
         </div>
@@ -62,7 +65,7 @@ export default function Tratamentos() {
           <h3>Vendas</h3>
           <div className={styles.description}>
             <p>
-            Gabriel
+            Gabriel - vendas01@eletrosantaclara.com.br
             </p>
             <p>
              
