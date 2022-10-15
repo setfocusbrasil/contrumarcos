@@ -133,17 +133,15 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato1.png"
-            alt="Preenchimento Labial"
+            alt="vendas06@eletrosantaclara.com.br"
             width="350"
             height="279"
             left
           />
-          <h3>Preenchimento Labial</h3>
+          <h3>Vendas - João</h3>
           <div className={styles.description}>
             <p>
-              Um procedimento que visa dar volume, contorno e brilho, realçando
-              a sensualidade dos lábios. Bastante procurado entre as mulheres.
-            </p>
+            vendas06@eletrosantaclara.com.br
           </div>
         </div>
 
