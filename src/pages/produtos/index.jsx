@@ -113,33 +113,31 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/prod_5.png"
-            alt="Facetas de Resina"
+            alt="ELETROCALHAS E PERFILADOS"
             width="350"
             height="279"
             left
           />
-          <h3>Facetas de Resina</h3>
+          <h3>Eletrocalhas e Perfilados</h3>
           <div className={styles.description}>
             <p>
-              É uma película de resina esculpida dente a dente para harmonizar a
-              cor, forma e posição dos dentes.
+            Toda linha de eletrocalhas, perfilados e acessórios.
             </p>
           </div>
         </div>
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/prod_5.png"
-            alt="Preenchimento Labial"
+            src="/images/prod_12.png"
+            alt="MÉDIA E ALTA TENSÃO"
             width="350"
             height="279"
             left
           />
-          <h3>Preenchimento Labial</h3>
+          <h3>Alta Tensão</h3>
           <div className={styles.description}>
             <p>
-              Um procedimento que visa dar volume, contorno e brilho, realçando
-              a sensualidade dos lábios. Bastante procurado entre as mulheres.
+            Transformadores, cabos multiplexados, chaves e acessórios.
             </p>
           </div>
         </div>
