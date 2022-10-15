@@ -29,7 +29,7 @@ export default function Tratamentos() {
       </Head>
 
       <div>
-        <HeaderPage subtitle="As melhores marcas" title="Produtos certificados e qualificados." />
+        <HeaderPage subtitle="As melhores marcas" title="Produtos Certificados e Qualificados." />
       </div>
       <main className={`${styles.treatments} mainContainer`}>
 
@@ -41,10 +41,10 @@ export default function Tratamentos() {
             height="279"
             left
           />
-          <h3>Lentes em Resina</h3>
+          <h3>Chuveiros</h3>
           <div className={styles.description}>
             <p>
-            Uma lente de resina, ou faceta de resina é uma técnica de procedimento dentário para mudar a estética de um sorriso de forma rápida e deixá-lo mais branco. Elas são constituídas de lâminas ultrafinas que são coladas na parte externa dos dentes para corrigir pequenos defeitos específicos.
+            Toda linha de chuveiros e duchas..
             </p>
           </div>
         </div>
@@ -59,10 +59,10 @@ export default function Tratamentos() {
             width="350"
             height="279"
           />
-          <h3>Clareamento à Laser</h3>
+          <h3>Fios e Cabos</h3>
           <div className={styles.description}>
             <p>
-            O agente clareador é aplicado em cada dente e o calor gerado por um laser aumenta sua eficácia e, ao mesmo tempo, acelera o processo. Esse procedimento usa um gel clareador potente, ativado e intensificado pelo laser, proporcionando resultados rápidos e significativos.
+            Toda linha de fios e cabos.
             </p>
             <p>
              
