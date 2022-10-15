@@ -100,7 +100,7 @@ export default function Tratamentos() {
           <h3>Disjuntores</h3>
           <div className={styles.description}>
             <p>
-            A palavra chave desde a linha residêncial até à Industra 4.0 é "Segurança". Por isso dispomos de toda linha de disjuntores, disjuntor-motor, contatores e relês das mais conceituadas marcas do mercado.
+            A palavra chave desde a linha residêncial até à Industra 4.0 é <strong>Segurança</strong>. Por isso dispomos de toda linha de disjuntores, disjuntor-motor, contatores e relês das mais conceituadas marcas do mercado.
             </p>
             <p>
               
