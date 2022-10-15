@@ -35,7 +35,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/prod_chuveiros.png"
+            src="/images/prod_1.png"
             alt="Chuveiros"
             width="350"
             height="279"
@@ -54,7 +54,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/prod_cabos.png"
+            src="/images/prod_2.png"
             alt="Fios e Cabos"
             width="350"
             height="279"
@@ -73,7 +73,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/prod_conduletes.png"
+            src="/images/prod_3.png"
             alt="Toda linha de conduletes e acessórios."
             width="350"
             height="279"
@@ -92,7 +92,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/prod_disjuntores.png"
+            src="/images/prod_4.png"
             alt="disjuntores"
             width="350"
             height="279"
@@ -112,7 +112,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/facetas.jpg"
+            src="/images/prod_5.png"
             alt="Facetas de Resina"
             width="350"
             height="279"
@@ -129,7 +129,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/preenchimentoLabial.jpeg"
+            src="/images/prod_5.png"
             alt="Preenchimento Labial"
             width="350"
             height="279"
@@ -146,7 +146,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/botulinica.jpg"
+            src="/images/prod_6.png"
             alt="Botulinica"
             width="350"
             height="279"
@@ -164,7 +164,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/preenchimentoFacial.jpg"
+            src="/images/prod_7.png"
             alt="Preenchimento facial"
             width="350"
             height="279"
@@ -182,7 +182,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/restauração.jpeg"
+            src="/images/prod_8.png"
             alt="Restauração"
             width="350"
             height="279"
@@ -199,7 +199,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/bioestimuladorColageno.jpeg"
+            src="/images/prod_9.png"
             alt="Bioestimulador de colageno"
             width="350"
             height="279"
@@ -217,7 +217,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/microagulhamento.jpg"
+            src="/images/prod_10.png"
             alt="Microagulhamento"
             width="350"
             height="279"
@@ -249,7 +249,7 @@ export default function Tratamentos() {
         </div> */}
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
-          <MyImage src="/images/peeling.jpg" alt="Peeling" width="350" height="279" left />
+          <MyImage src="/images/prod_11.png" alt="Peeling" width="350" height="279" left />
           <h3>Peeling</h3>
           <div className={styles.description}>
             <p>
