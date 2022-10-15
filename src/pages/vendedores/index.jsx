@@ -47,7 +47,7 @@ export default function Tratamentos() {
             <p>           
               Felipe
             </p>
-            <p>vendas@eletrosantaclara.com.br</p>
+            
           </div>
         </div>
 
@@ -61,13 +61,13 @@ export default function Tratamentos() {
             width="350"
             height="279"
           />
-          <h3>Vendas</h3>
+          <h3>vendas01@eletrosantaclara.com.br</h3>
           <div className={styles.description}>
             <p>
             Gabriel 
             </p>
             <p>
-             vendas01@eletrosantaclara.com.br
+             
             </p>
           </div>
         </div>
@@ -81,12 +81,12 @@ export default function Tratamentos() {
             height="279"
             left
           />
-          <h3>Vendas</h3>
+          <h3>vendas03@eletrosantaclara.com.br</h3>
           <div className={styles.description}>
             <p>
             Mario 
             </p>
-            <p>vendas03@eletrosantaclara.com.br</p>
+            <p></p>
           </div>
         </div>
 
@@ -100,13 +100,13 @@ export default function Tratamentos() {
             width="350"
             height="279"
           />
-          <h3>Vendas</h3>
+          <h3>vendas04@eletrosantaclara.com.br</h3>
           <div className={styles.description}>
             <p>
             Guilherme 
             </p>
             <p>
-            vendas04@eletrosantaclara.com.br
+            
             </p>
           </div>
         </div>        
