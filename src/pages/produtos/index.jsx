@@ -16,27 +16,27 @@ export default function Tratamentos() {
   return (
     <>
       <Head>
-        <title>Tratamentos | Clínica Odontológica - Laís Coneglian Dutra</title>
+        <title>Produtos | Materiais Elétricos - Eletro Santa Clara</title>
         <meta
           name="description"
-          content="Clínica Odontológica em Lençóis Paulista com Harmonização Facial - dra. Laís Coneglian Dutra"
+          content="As melhores marcas. Produtos certificados e qualificados"
         />
         <meta
           name="keywords"
-          content="Dentista, Clínica Odontológica, Dentista em Lençóis Paulista, Harmonização Facial, Clareamento Dental, Clínica Odontológica em Lençóis Paulista"
+          content="eletro santa clara, materiais elétricos, média tensão,ferragens, alta tensão, tomada, interruptor, disjuntor, contator, para-raio, poste, transformador"
         />
-        <meta name="author" content="dra. Laís Coneglian Dutra" />
+        <meta name="author" content=" Eletro Santa Clara" />
       </Head>
 
       <div>
-        <HeaderPage subtitle="Todos os serviços" title="Nossos Tratamentos." />
+        <HeaderPage subtitle="As melhores marcas" title="Produtos certificados e qualificados." />
       </div>
       <main className={`${styles.treatments} mainContainer`}>
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/Lentes em resina.jpeg"
-            alt="Profilaxia"
+            src="/images/prod_chuveiros.png"
+            alt="Chuveiros"
             width="350"
             height="279"
             left
@@ -54,8 +54,8 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/Clareamento a laser.jpeg"
-            alt="Clareamento dental"
+            src="/images/prod_cabos.png"
+            alt="Fios e Cabos"
             width="350"
             height="279"
           />
