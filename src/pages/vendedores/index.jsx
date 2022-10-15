@@ -203,21 +203,62 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato1.png"
-            alt="Restauração"
+            alt="Vendas"
             width="350"
             height="279"
             left
           />
-          <h3>Restauração</h3>
+          <h3>Vendas - Gian</h3>
           <div className={styles.description}>
             <p>
-              Feita com resina composta com o intuito de paralisar o avanço da
-              doença carie.
+            vendas08@eletrosantaclara.com.br
             </p>
           </div>
         </div>
 
- 
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/contato1.png"
+            alt="Vendas"
+            width="350"
+            height="279"
+            left
+          />
+          <h3>Vendas - Leonardo</h3>
+          <div className={styles.description}>
+            <p>
+            vendas09@eletrosantaclara.com.br
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/contato1.png"
+            alt="Vendas"
+            width="350"
+            height="279"
+            left
+          />
+          <h3>Vendas - Alexandre</h3>
+          <div className={styles.description}>
+            <p>
+            vendas10@eletrosantaclara.com.br
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage src="/images/contato1.png" alt="Vendas" width="350" height="279" left />
+          <h3>Vendas - Juno</h3>
+          <div className={styles.description}>
+            <p>
+            vendas07@eletrosantaclara.com.br
+            </p>
+          </div>
+        </div>
+      </main>
+
 
 
         {/* <div className={styles.treatmentsItem} data-aos="fade-up">
@@ -235,12 +276,11 @@ export default function Tratamentos() {
         </div> */}
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
-          <MyImage src="/images/contato1.png" alt="Peeling" width="350" height="279" left />
-          <h3>Peeling</h3>
+          <MyImage src="/images/contato1.png" alt="Vendas" width="350" height="279" left />
+          <h3>Vendas - Juno</h3>
           <div className={styles.description}>
             <p>
-              Um ativo que ajuda a remover manchas, estimular colágeno, suavizar
-              rugas, dar brilho e melhorar o aspecto da pele
+            vendas07@eletrosantaclara.com.br
             </p>
           </div>
         </div>
