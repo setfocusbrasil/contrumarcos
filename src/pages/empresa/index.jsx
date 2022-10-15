@@ -135,6 +135,43 @@ export default function Clinica() {
                 objectFit="cover"
               />
             </li>
+            <li data-aos="zoom-in-up">
+              <Image
+                src="/images/loja10.jpg"
+                alt="Foto Loja"
+                width="200"
+                height="130"
+                objectFit="cover"
+              />
+            </li>
+            <li data-aos="zoom-in-up">
+              <Image
+                src="/images/loja11.jpg"
+                alt="Foto Loja"
+                width="200"
+                height="130"
+                objectFit="cover"
+              />
+            </li>
+            <li data-aos="zoom-in-up">
+              <Image
+                src="/images/loja12.jpg"
+                alt="Foto Loja"
+                width="200"
+                height="130"
+                objectFit="cover"
+              />
+            </li>
+            <li data-aos="zoom-in-up">
+              <Image
+                src="/images/loja13.jpg"
+                alt="Foto Loja"
+                width="200"
+                height="130"
+                objectFit="cover"
+              />
+            </li>
+
           </ul>
 
           {/* <div className={styles.btns}>

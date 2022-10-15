@@ -68,7 +68,7 @@ export const Header = () => {
             <Link href="/empresa">
               <a>A Empresa</a>
             </Link>
-            <Link href="/">
+            <Link href="/localizacao">
               <a>Localização</a>
             </Link>
 
@@ -110,7 +110,7 @@ export const Header = () => {
               </Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="/">
+              <Link href="/localizacao">
                 <a>Localização</a>
               </Link>
             </li>
