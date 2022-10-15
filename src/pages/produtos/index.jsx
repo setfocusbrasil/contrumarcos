@@ -79,7 +79,7 @@ export default function Tratamentos() {
             height="279"
             left
           />
-          <h3>CONDULETES</h3>
+          <h3>Conduletes</h3>
           <div className={styles.description}>
             <p>
             Toda linha de conduletes e acessórios.
