@@ -82,7 +82,7 @@ export default function Tratamentos() {
           <h3>Conduletes</h3>
           <div className={styles.description}>
             <p>
-            Se é de conexão e condu~ção que voê precisaToda nós dispomos de toda linha de conduletes e acessórios.
+            Se é de conexão e condução que voê precisa, nós dispomos de toda linha de conduletes e acessórios.
             </p>
           </div>
         </div>
