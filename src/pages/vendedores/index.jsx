@@ -58,7 +58,7 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato2.png"
-            alt="Clareamento dental"
+            alt="Vendas - Gabriel"
             width="350"
             height="279"
           />
@@ -117,16 +117,15 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato1.png"
-            alt="Facetas de Resina"
+            alt=" vendas05@eletrosantaclara.com.br"
             width="350"
             height="279"
             left
           />
-          <h3>Facetas de Resina</h3>
+          <h3>Vendas - José Evandro</h3>
           <div className={styles.description}>
             <p>
-              É uma película de resina esculpida dente a dente para harmonizar a
-              cor, forma e posição dos dentes.
+            vendas05@eletrosantaclara.com.br
             </p>
           </div>
         </div>
