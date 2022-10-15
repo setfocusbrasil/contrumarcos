@@ -29,22 +29,22 @@ export default function Tratamentos() {
       </Head>
 
       <div>
-        <HeaderPage subtitle="Todos os serviços" title="Nossos Tratamentos." />
+        <HeaderPage subtitle="Nossos setores" title="Principais contatos." />
       </div>
       <main className={`${styles.treatments} mainContainer`}>
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/Lentes em resina.jpeg"
-            alt="Profilaxia"
+            src="/images/contato1.png"
+            alt="Felipe"
             width="350"
             height="279"
             left
           />
-          <h3>Lentes em Resina</h3>
+          <h3>Vendas</h3>
           <div className={styles.description}>
             <p>
-            Uma lente de resina, ou faceta de resina é uma técnica de procedimento dentário para mudar a estética de um sorriso de forma rápida e deixá-lo mais branco. Elas são constituídas de lâminas ultrafinas que são coladas na parte externa dos dentes para corrigir pequenos defeitos específicos.
+            Felipe
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/Clareamento a laser.jpeg"
+            src="/images/contato1.png"
             alt="Clareamento dental"
             width="350"
             height="279"
@@ -73,7 +73,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/profilaxia.jpg"
+            src="/images/contato1.png"
             alt="Profilaxia"
             width="350"
             height="279"
@@ -95,7 +95,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/clareamento.jpg"
+            src="/images/contato1.png"
             alt="Clareamento dental"
             width="350"
             height="279"
@@ -120,7 +120,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/facetas.jpg"
+            src="/images/contato1.png"
             alt="Facetas de Resina"
             width="350"
             height="279"
@@ -137,7 +137,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/preenchimentoLabial.jpeg"
+            src="/images/contato1.png"
             alt="Preenchimento Labial"
             width="350"
             height="279"
@@ -154,7 +154,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/botulinica.jpg"
+            src="/images/contato1.png"
             alt="Botulinica"
             width="350"
             height="279"
@@ -172,7 +172,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/preenchimentoFacial.jpg"
+            src="/images/contato1.png"
             alt="Preenchimento facial"
             width="350"
             height="279"
@@ -190,7 +190,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/restauração.jpeg"
+            src="/images/contato1.png"
             alt="Restauração"
             width="350"
             height="279"
@@ -207,7 +207,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/bioestimuladorColageno.jpeg"
+            src="/images/contato1.png"
             alt="Bioestimulador de colageno"
             width="350"
             height="279"
@@ -225,7 +225,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/microagulhamento.jpg"
+            src="/images/contato1.png"
             alt="Microagulhamento"
             width="350"
             height="279"
@@ -257,7 +257,7 @@ export default function Tratamentos() {
         </div> */}
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
-          <MyImage src="/images/peeling.jpg" alt="Peeling" width="350" height="279" left />
+          <MyImage src="/images/contato1.png" alt="Peeling" width="350" height="279" left />
           <h3>Peeling</h3>
           <div className={styles.description}>
             <p>
