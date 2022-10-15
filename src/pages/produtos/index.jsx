@@ -73,19 +73,16 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/profilaxia.jpg"
-            alt="Profilaxia"
+            src="/images/prod_conduletes.png"
+            alt="Toda linha de conduletes e acessórios."
             width="350"
             height="279"
             left
           />
-          <h3>Profilaxia</h3>
+          <h3>CONDULETES</h3>
           <div className={styles.description}>
             <p>
-              É a famosa limpeza dental, que é feita com ultrassom para remoção
-              do tartaro, curetas, jato de bicarbonato e escova de robson.
-              Fundamental para prevenção de doenças bucais como carie,
-              gengivite, peridontite, mal hálito, entre outras...
+            Toda linha de conduletes e acessórios.
             </p>
           </div>
         </div>
