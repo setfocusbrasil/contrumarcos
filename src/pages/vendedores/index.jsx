@@ -47,7 +47,6 @@ export default function Tratamentos() {
             <Link href="vendas@eletrosantaclara.com.br">
               <a>Felipe - vendas@eletrosantaclara.com.br</a>
             </Link>  
-            Felipe - vendas@eletrosantaclara.com.br
             </p>
           </div>
         </div>
