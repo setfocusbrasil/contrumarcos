@@ -75,7 +75,57 @@ export default function Contato() {
               <li>
                 <p>
                   <img src="/icons/localizacaoIcon.svg" alt="Localização" />
-                  Av. Brasil, 583 - Centro
+                  Av. Brasil, 589 - Centro
+                </p>
+                <p>Lençóis Paulista - SP</p>
+              </li>
+              <li></li>
+              <li className={styles.separador}>
+                <p>
+                  <img src="/icons/emailIcon.svg" alt="email" />
+                  vendas@eletrosantaclara.com.br
+                </p>
+              </li>
+              <li>
+                <p>
+                  <img src="/icons/telefoneIcon.svg" alt="Telefone" />
+                  +55 (14) 3269-1057
+                </p>
+                {/* <p>+55 (14) 99123-4567</p> */}
+              </li>
+              <li className={styles.separador}>
+                <p>
+                  <img src="/icons/horarioIcon.svg" alt="Horários" />
+                  08-18h de seg à sex
+                </p>
+                <p>08-12h sáb</p>
+              </li>
+              <li className={styles.social}>
+                <Link href="https://www.instagram.com/eletrosantaclara ">
+                  <a target="_blank">
+                    <img src="/icons/instaContato.svg" alt="Instagram" />
+                  </a>
+                </Link>
+                <Link href="https://www.facebook.com/eletrosantaclara">
+                  <a target="_blank">
+                    <img src="/icons/faceContato.svg" alt="Facebook" />
+                  </a>
+                </Link>
+                {/* <Link href="/">
+                  <a>
+                    <img src="/icons/youtubeContato.svg" alt="Youtube" />
+                  </a>
+                </Link> */}
+              </li>
+            </ul>
+          </div>
+
+          <div className={styles.contactLeft}>
+            <ul>
+              <li>
+                <p>
+                  <img src="/icons/localizacaoIcon.svg" alt="Localização" />
+                  Av. Brasil, 589 - Centro
                 </p>
                 <p>Lençóis Paulista - SP</p>
               </li>
@@ -121,9 +171,8 @@ export default function Contato() {
           </div>
 
 
-
           
-
+{/*
              <form className={styles.contactRight} onSubmit={handleSubmit}>
             {!!submitted && (
               <span className={styles.successMessage}>
@@ -179,7 +228,7 @@ export default function Contato() {
                 ENVIAR MENSAGEM
               </button>
             )}
-          </form> 
+          </form>  */}
         </section>
       </main>
 
