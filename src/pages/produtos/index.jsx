@@ -29,7 +29,7 @@ export default function Tratamentos() {
       </Head>
 
       <div>
-        <HeaderPage subtitle="As melhores marcas" title="Produtos Certificados e Qualificados." />
+        <HeaderPage subtitle="As melhores marcas" title="Produtos Certificados." />
       </div>
       <main className={`${styles.treatments} mainContainer`}>
 
@@ -261,7 +261,7 @@ export default function Tratamentos() {
       </main>
 
       <section className={styles.images}>
-        <Title title="Material Elétricos é na Eletro Santa Clara" subtitle="Qualidade é Nosso Destaque" />
+        <Title title="Material Elétrico é na Eletro Santa Clara" subtitle="Qualidade é Nosso Destaque" />
 
         <ul className={`${styles.imagesContainer} mainContainer`}>
           <li data-aos="zoom-in-up">
