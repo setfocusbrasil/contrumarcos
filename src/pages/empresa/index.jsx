@@ -44,44 +44,29 @@ export default function Clinica() {
 
         <div className={styles.clinicDescription} data-aos="fade-up">
           <p>
-            A Clínica foi fundada no ano de 2020 com o propósito de trazer para
-            Lençóis Paulista e região uma nova visão sobre a Odontologia e
-            Harmonização Facial. Uma clínica em que o paciente tem atenção
-            especial pois é um espaço exclusivo onde somente a Dra Lais
-            Coneglian Dutra atende. Dessa maneira ela pode executar um
-            atendimento mais individualizado e humanizado, respeitando as
-            particularidades e exigências de cada paciente, além de proporcionar
-            muito mais privacidade ao atendimento.
+          A Eletro Santa Clara foi fundada em Lençóis Paulista, no interior do estado de São Paulo, há mais de três décadas, com o principal objetivo de servir o cidadão lençoense com a mais completa loja de materiais elétricos da cidade. Essa visão inicial foi transformada com o tempo e o crescimento da loja, principalmente com a abertura de sua primeira filial, na Rodovia Osny Mateus. Pois agora somado aos preços baixos e atendimento de excelência, a facilidade de acesso foi mais um atrativo para clientes de toda a região.
           </p>
           <p>
-            A clínica está sempre pronta, com ambiente muito bem esterilizado e
-            higienizado para garantir a segurança e integridade de todos os
-            pacientes.
+          Hoje a empresa Eletro Santa Clara, líder no segmento de materiais elétricos na cidade e região, está em processo de melhorias estruturais e organizacionais, visando atender seus clientes, de atacado e varejo, melhor a cada dia. A missão da empresa sempre foi e sempre será levar produtos de qualidade com preço justo e oferecer um atendimento ágil, dinâmico, colaborativo e alegre a todos os seus estimados clientes.
           </p>
           <p>
-            Os equipamentos são todos novos e de última geração garantindo a
-            todos os cliente o que há de melhor e mais moderno em tratamento
-            odontológicos e de harmonização facial.
+          Nossa empresa trabalha com materiais de baixa, média e alta tensão. Oferecemos a maior agilidade nos orçamentos e nas entregas para toda a região. Temos a melhor equipe, sempre de prontidão para bem atender. Somos distribuidores de produtos de qualidade através das marcas líderes no mercado de materiais elétricos.
           </p>
           <p>
-            A clínica preza sempre por tratamentos de excelência, por isso
-            utilizamos produtos da melhor qualidade em toxina botulínica,
-            preenchedores, bioestimuladores de colageno, resinas, clareadores
-            dentais, entre outros. A melhor qualidade em produtos é equipamentos
-            para oferecer o melhor resultado em todos os tratamentos!!
+            
           </p>
         </div>
       </main>
 
       <section className={`${styles.photos} mainContainer`}>
-        <Title subtitle="Algumas imagens" title="Fotos" />
+        <Title subtitle="Algumas marcas" title="Fornecedores" />
 
         <div className={styles.photosSlider}>
           <ul>
             <li data-aos="zoom-in-up" className={styles.bigger}>
               <Image
                 src="/images/loja2.jpg"
-                alt="Foto Loja 2"
+                alt="Foto Loja"
                 width="1216"
                 height="375"
                 objectFit="cover"
