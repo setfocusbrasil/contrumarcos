@@ -42,11 +42,12 @@ export default function Tratamentos() {
             height="279"
             left
           />
-          <h3>vendas@eletrosantaclara.com.br</h3>
+          <h3>Vendas</h3>
           <div className={styles.description}>
             <p>           
               Felipe
             </p>
+            <br>vendas@eletrosantaclara.com.br</br>
             
           </div>
         </div>
