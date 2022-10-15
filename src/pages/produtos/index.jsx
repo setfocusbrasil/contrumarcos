@@ -92,23 +92,18 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/clareamento.jpg"
-            alt="Clareamento dental"
+            src="/images/prod_disjuntores.png"
+            alt="disjuntores"
             width="350"
             height="279"
           />
-          <h3>Clareamento dental</h3>
+          <h3>Disjuntores</h3>
           <div className={styles.description}>
             <p>
-              Um dos serviços mais procurados por ser considerado um tratamento
-              pouco invasivo, muito seguro e com resultados incríveis para os
-              dentes. O dentista usa um gel que clareia a superfície dentaria e
-              o resultado pode ser visto logo após a sessão do clareamento a
-              laser.
+            Toda linha de disjuntores, disjuntor-motor, contatores e relês.
             </p>
             <p>
-              Nosso diferencial é o uso da laserterapia para controle da
-              sensibilidade pós operatória.
+              
             </p>
           </div>
         </div>        
