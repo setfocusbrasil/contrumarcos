@@ -192,9 +192,6 @@ export default function Contato() {
             Protestos de Lençóis Paulista.
           </p>
         </div>
-
-        <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="margin:20px 0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.3449765834857!2d-48.801198754111724!3d-22.60358938183228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c0b6aa6cba0c6b%3A0x50202f0451ff3276!2sEletro+Santa+Clara!5e0!3m2!1spt-BR!2sbr!4v1503166115933" allowfullscreen></iframe>
-        
         <Image
           src="/images/localizacao.jpg"
           alt="Localização"
