@@ -250,14 +250,14 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage src="/images/contato1.png" alt="Vendas" width="350" height="279" left />
-          <h3>Vendas - Juno</h3>
+          <h3>Vendas - Juno </h3>
           <div className={styles.description}>
             <p>
             vendas07@eletrosantaclara.com.br
             </p>
           </div>
         </div>
-      </main>
+  
 
 
 
@@ -284,6 +284,7 @@ export default function Tratamentos() {
             </p>
           </div>
         </div>
+
       </main>
 
       {/* <section className={styles.images}>
