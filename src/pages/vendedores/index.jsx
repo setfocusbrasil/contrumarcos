@@ -55,7 +55,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/contato3.png"
+            src="/images/dione.png"
             alt="Compras"
             width="350"
             height="279"
@@ -93,7 +93,7 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/contato2.png"
+            src="/images/contato1.png"
             alt="Vendas - Gabriel"
             width="350"
             height="279"
@@ -129,13 +129,13 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/contato1.png"
+            src="/images/contato2.png"
             alt="Contas a Receber"
             width="350"
             height="279"
             left
           />
-          <h3>Contas a Receber - João</h3>
+          <h3>Financeiro - João</h3>
           <div className={styles.description}>
             <p>
             contasareceber2@eletrosantaclara.com.br
@@ -184,18 +184,16 @@ export default function Tratamentos() {
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
-            src="/images/contato1.png"
+            src="/images/lucas.png"
             alt="Botulinica"
             width="350"
             height="279"
             left
           />
-          <h3>Toxina Botulinica</h3>
+          <h3>Dinanceiro - Lucas</h3>
           <div className={styles.description}>
             <p>
-              Nosso queridinho é o mais procurado na área da harmonização
-              facial. Ele paralisa a musculatura temporariamente suavizando
-              linhas de expressão e prevenindo rugas.
+            contasapagar@eletrosantaclara.com.br
             </p>
           </div>
         </div>
