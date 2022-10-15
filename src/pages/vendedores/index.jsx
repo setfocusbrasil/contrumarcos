@@ -45,8 +45,9 @@ export default function Tratamentos() {
           <h3>Vendas</h3>
           <div className={styles.description}>
             <p>           
-              Felipe - vendas@eletrosantaclara.com.br
+              Felipe
             </p>
+            <p>vendas@eletrosantaclara.com.br</p>
           </div>
         </div>
 
@@ -63,10 +64,10 @@ export default function Tratamentos() {
           <h3>Vendas</h3>
           <div className={styles.description}>
             <p>
-            Gabriel - vendas01@eletrosantaclara.com.br
+            Gabriel 
             </p>
             <p>
-             
+             vendas01@eletrosantaclara.com.br
             </p>
           </div>
         </div>
@@ -83,8 +84,9 @@ export default function Tratamentos() {
           <h3>Vendas</h3>
           <div className={styles.description}>
             <p>
-            Mario - vendas03@eletrosantaclara.com.br
+            Mario 
             </p>
+            <p>vendas03@eletrosantaclara.com.br</p>
           </div>
         </div>
 
@@ -101,11 +103,10 @@ export default function Tratamentos() {
           <h3>Vendas</h3>
           <div className={styles.description}>
             <p>
-            Guilherme - vendas04@eletrosantaclara.com.br
+            Guilherme 
             </p>
             <p>
-              Nosso diferencial é o uso da laserterapia para controle da
-              sensibilidade pós operatória.
+            vendas04@eletrosantaclara.com.br
             </p>
           </div>
         </div>        
