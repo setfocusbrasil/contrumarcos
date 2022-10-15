@@ -128,7 +128,7 @@ export default function Home() {
             <p>
             
             </p>
-            <Button link="/" target="_self">
+            <Button link="/empresa" target="_self">
               Ver Mais
             </Button>
           </div>
