@@ -34,7 +34,7 @@ export default function Clinica() {
       <main className={`${styles.clinic} mainContainer`}>
         <div data-aos="fade-up">
           <MyImage
-            src="/images/loja1.jpeg"
+            src="/images/loja1.jpg"
             alt="Frente da Loja"
             width="430"
             height="508"
@@ -63,7 +63,7 @@ export default function Clinica() {
 
         <div className={styles.photosSlider}>
           <ul>
-            <li data-aos="zoom-in-up" className={styles.bigger}>
+            <li data-aos="zoom-in-up">
               <Image
                 src="/images/loja2.jpg"
                 alt="Foto Loja"
@@ -108,7 +108,7 @@ export default function Clinica() {
                 objectFit="cover"
               />
             </li>
-            <li data-aos="zoom-in-up" className={styles.bigger}>
+            <li data-aos="zoom-in-up">
               <Image
                 src="/images/loja7.jpg"
                 alt="Foto Loja"
