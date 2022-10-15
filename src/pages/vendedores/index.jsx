@@ -190,7 +190,7 @@ export default function Tratamentos() {
             height="279"
             left
           />
-          <h3>Dinanceiro - Lucas</h3>
+          <h3>Financeiro - Lucas</h3>
           <div className={styles.description}>
             <p>
             contasapagar@eletrosantaclara.com.br
