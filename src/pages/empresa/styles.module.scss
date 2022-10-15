@@ -39,13 +39,13 @@
   padding-top: 30px;
   padding-bottom: 120px;
   color: var(--blue-black);
-  
+
   .photosSlider {
     margin-top: 60px;
 
     ul {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       gap: var(--s16);
 
       .bigger {
