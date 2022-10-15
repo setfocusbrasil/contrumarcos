@@ -50,10 +50,10 @@ export default function Clinica() {
           Hoje a empresa Eletro Santa Clara, líder no segmento de materiais elétricos na cidade e região, está em processo de melhorias estruturais e organizacionais, visando atender seus clientes, de atacado e varejo, melhor a cada dia. A missão da empresa sempre foi e sempre será levar produtos de qualidade com preço justo e oferecer um atendimento ágil, dinâmico, colaborativo e alegre a todos os seus estimados clientes.
           </p>
           <p>
-          Nossa empresa trabalha com materiais de baixa, média e alta tensão. Oferecemos a maior agilidade nos orçamentos e nas entregas para toda a região. Temos a melhor equipe, sempre de prontidão para bem atender. Somos distribuidores de produtos de qualidade através das marcas líderes no mercado de materiais elétricos.
+          Nossa empresa trabalha com materiais de baixa, média e alta tensão. Oferecemos a maior agilidade nos orçamentos e nas entregas para toda a região. Somos distribuidores de produtos de qualidade através das marcas líderes no mercado de materiais elétricos.
           </p>
           <p>
-            
+          Caso tenha alguma duvida, sugestão ou simplesmente queira nos conhecer não hesite em nos contactar. Estamos a disposição com uma equipe treinada para melhor atende-lo.  
           </p>
         </div>
       </main>
