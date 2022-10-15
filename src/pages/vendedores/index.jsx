@@ -53,6 +53,39 @@ export default function Tratamentos() {
         </div>
 
 
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/contato1.png"
+            alt="Financeiro"
+            width="350"
+            height="279"
+            left
+          />
+          <h3>Financeiro - Silvone</h3>
+          <div className={styles.description}>
+            <p>
+            contasareceber@eletrosantaclara.com.br
+            </p>
+          </div>
+        </div>
+
+
+        <div className={styles.treatmentsItem} data-aos="fade-up">
+          <MyImage
+            src="/images/contato1.png"
+            alt="Compras"
+            width="350"
+            height="279"
+            left
+          />
+          <h3>Compras - Dione</h3>
+          <div className={styles.description}>
+            <p>
+            compras@eletrosantaclara.com.br
+            </p>
+          </div>
+        </div>
+
 
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
@@ -130,20 +163,7 @@ export default function Tratamentos() {
           </div>
         </div>
 
-        <div className={styles.treatmentsItem} data-aos="fade-up">
-          <MyImage
-            src="/images/contato1.png"
-            alt="vendas06@eletrosantaclara.com.br"
-            width="350"
-            height="279"
-            left
-          />
-          <h3>Vendas - João</h3>
-          <div className={styles.description}>
-            <p>
-            vendas06@eletrosantaclara.com.br
-          </div>
-        </div>
+ 
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
@@ -163,23 +183,7 @@ export default function Tratamentos() {
           </div>
         </div>
 
-        <div className={styles.treatmentsItem} data-aos="fade-up">
-          <MyImage
-            src="/images/contato1.png"
-            alt="Preenchimento facial"
-            width="350"
-            height="279"
-            left
-          />
-          <h3>Preenchimento facial com ácido hialuronico</h3>
-          <div className={styles.description}>
-            <p>
-              Pode ser feito no malar, mandibula e mento com o intuito de dar
-              volume onde é necessário melhorar o contorno deixando a face mais
-              harmoniosa, jovem e atraente.
-            </p>
-          </div>
-        </div>
+
 
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
