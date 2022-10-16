@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "../components/Button";
 import { HeaderPage } from "../../components/HeaderPage";
 import { MyImage } from "../../components/MyImage";
 import { Footer } from "../../components/Footer";
@@ -31,6 +32,14 @@ export default function Tratamentos() {
 
       <div>
         <HeaderPage subtitle="Nossos setores" title="Principais contatos." />
+        <Button
+                onClick={agendarConsulta}
+                link="https://wa.me/5514981189197"
+              >
+                <img src="/icons/whatsIcon.svg" alt="whatsapp" />
+                Whatsapp Loja 1
+              </Button>
+
       </div>
       <main className={`${styles.treatments} mainContainer`}>
 
@@ -49,8 +58,6 @@ export default function Tratamentos() {
             </p>
          </div>
         </div>
-
-
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/dione.png"
