@@ -32,14 +32,7 @@ export default function Tratamentos() {
 
       <div>
         <HeaderPage subtitle="Nossos setores" title="Principais contatos." />
-        <Button
-                onClick={agendarConsulta}
-                link="https://wa.me/5514981189197"
-              >
-                <img src="/icons/whatsIcon.svg" alt="whatsapp" />
-                Whatsapp Loja 1
-              </Button>
-
+       
       </div>
       <main className={`${styles.treatments} mainContainer`}>
 
