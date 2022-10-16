@@ -47,9 +47,7 @@ export default function Tratamentos() {
             <p>           
             vendas@eletrosantaclara.com.br 
             </p>
-            
-            
-          </div>
+         </div>
         </div>
 
 
@@ -68,9 +66,6 @@ export default function Tratamentos() {
             </p>
           </div>
         </div>
-
-
-
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato2.png"
@@ -86,11 +81,6 @@ export default function Tratamentos() {
             </p>
           </div>
         </div>
-
-
- 
-
-
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato1.png"
@@ -103,13 +93,8 @@ export default function Tratamentos() {
             <p>
             vendas01@eletrosantaclara.com.br  
             </p>
-            <p>
-             
-            </p>
-          </div>
+           </div>
         </div>
-
-
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato1.png"
@@ -123,10 +108,8 @@ export default function Tratamentos() {
             <p>
             vendas03@eletrosantaclara.com.br
             </p>
-            <p></p>
           </div>
         </div>
-
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato2.png"
@@ -142,8 +125,6 @@ export default function Tratamentos() {
             </p>
           </div>
         </div>
-
-
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato1.png"
@@ -156,10 +137,7 @@ export default function Tratamentos() {
             <p>
             vendas04@eletrosantaclara.com.br  
             </p>
-            <p>
-            
-            </p>
-          </div>
+            </div>
         </div>        
 
         
@@ -179,10 +157,7 @@ export default function Tratamentos() {
             </p>
           </div>
         </div>
-
- 
-
-        <div className={styles.treatmentsItem} data-aos="fade-up">
+      <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/lucas.png"
             alt="Botulinica"
@@ -197,9 +172,6 @@ export default function Tratamentos() {
             </p>
           </div>
         </div>
-
-
-
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato1.png"
@@ -248,8 +220,6 @@ export default function Tratamentos() {
           </div>
         </div>
 
-
-
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/contato1.png"
@@ -275,10 +245,7 @@ export default function Tratamentos() {
             </p>
           </div>
         </div>
-  
-
-
-
+        
         {/* <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/"
