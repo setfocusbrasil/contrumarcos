@@ -93,7 +93,7 @@ export default function Home() {
             data-aos-delay="400"
           >
             <MyImage
-              src="/images/heroLais.jpg"
+              src="/images/herostaclara.jpg"
               alt="Paciente Sorrindo na clínica"
               width="440"
               height="510"
