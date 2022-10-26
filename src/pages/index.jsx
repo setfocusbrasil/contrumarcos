@@ -44,8 +44,7 @@ export default function Home() {
         />
         <meta name="author" content="Santa Clara" />
         
-        <script async src="//static.zotabox.com/b/7/b7502fb6f5f765b9614401000a1c1159/widgets.js"></script>
-        
+               
       </Head>
 
       {/* <div className={styles.schedule}>
