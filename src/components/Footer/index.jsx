@@ -70,9 +70,9 @@ export const Footer = ({ children, link = "/" }) => {
             <h3>Atendimento</h3>
             <p>Seg - Sex: 08:00 - 18:00</p>
             <p>Sáb: até 12h - Dom: Fechado</p>
-            <p><Link href="https://agenciasetfocus.vercel.app/">
+            <p><Link href="https://eletrosantaclara.vercel.app/pdp">
                   <a target="_blank">
-                  Desenvolvido por SetFocus Brasil  
+                  Política de Privacidade  
                   </a>
                 </Link> </p>
           </div>
