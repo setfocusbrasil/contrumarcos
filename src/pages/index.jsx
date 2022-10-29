@@ -63,8 +63,8 @@ export default function Home() {
 
           
             <p data-aos="fade-up" data-aos-delay="200">
-            Nossa missão é entregar qualidade e preço baixo para proporcionar
-              máxima satisfação aos nossos Clientes.
+            A Eletro Santa Clara é uma empresa de comércio de material elétrico residencial, comercial e industrial que atende Lençóis Paulista e região.
+Nossa missão é entregar qualidade e preço baixo para proporcionar máxima satisfação aos nossos Clientes.
             </p>
            
   
