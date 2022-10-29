@@ -31,7 +31,7 @@ export default function Clinica() {
 
       </Head>
 
-      <HeaderPage subtitle="Conheça nossa Empresa" title="Sobre." />
+      <HeaderPage subtitle="Faça um Orçamento conosco"  />
 
       <main className={`${styles.clinic} mainContainer`}>
         {/* <div data-aos="fade-up">
