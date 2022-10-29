@@ -62,7 +62,7 @@ Para esclarecimento de dúvidas sobre este termo, você pode nos contatar pelo t
         </div>
       </main>
 
-      <section className={`${styles.photos} mainContainer`}>
+    {/*   <section className={`${styles.photos} mainContainer`}>
         <Title subtitle="Algumas marcas" title="Fornecedoras" />
 
         <div className={styles.photosSlider}>
@@ -178,12 +178,9 @@ Para esclarecimento de dúvidas sobre este termo, você pode nos contatar pelo t
 
           </ul>
 
-          {/* <div className={styles.btns}>
-            <button className={styles.active}></button>
-            <button></button>
-          </div> */}
+         
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </>
