@@ -35,10 +35,11 @@ export default function Clinica() {
         <div data-aos="fade-up">
           <MyImage
             src="/images/loja1.jpg"
-            alt="Frente da Loja"
+            alt="Política de Privacidade"
             width="430"
             height="508"
             left
+            top
           />
         </div>
 
