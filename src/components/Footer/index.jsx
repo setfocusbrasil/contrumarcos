@@ -68,7 +68,7 @@ export const Footer = ({ children, link = "/" }) => {
 
           <div>
             <h3>Atendimento</h3>
-            <p>Seg - Sex: 08:00 - 18:00</p>
+            <p>Seg - Sex: 07:00 - 18:00</p>
             <p>Sáb: até 12h - Dom: Fechado</p>
             <p><Link href="https://eletrosantaclara.vercel.app/pdp">
                   <a target="_blank">
