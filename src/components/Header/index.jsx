@@ -76,11 +76,7 @@ export const Header = () => {
             <Link href="/orcamento">
               <a>Orçamento</a>
             </Link>
-
-            <Link href="/pdp">
-              <a>Política de Privacidade</a>
-            </Link>
-
+ 
           </nav>
 
           <div className={styles.btnAgendar}>
@@ -125,6 +121,11 @@ export const Header = () => {
               </Link>
             </li>
           
+            <li onClick={closeMenu}>
+              <Link href="/orcamento">
+                <a>Orçamento</a>
+              </Link>
+            </li>
             <li onClick={agendarConsultaMenu}>
               <Link href="https://wa.me/5514981189197">
                 <a target="_blank">Fale com um vendedor</a>
