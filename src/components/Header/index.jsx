@@ -73,6 +73,14 @@ export const Header = () => {
               <a>Contato</a>
             </Link>
 
+            <Link href="/orcamento">
+              <a>Orçamento</a>
+            </Link>
+
+            <Link href="/pdp">
+              <a>Política de Privacidade</a>
+            </Link>
+
           </nav>
 
           <div className={styles.btnAgendar}>
