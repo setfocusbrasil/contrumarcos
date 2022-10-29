@@ -7,11 +7,9 @@
   gap: var(--s32);
 
   .clinicDescription {
-    max-width: 950px;
+    max-width: 650px;
     margin-left: var(--s32);
     color: var(--blue-black);
-    justify-content: center;
-    align-items: center;
 
     p {
       line-height: 1.5;
