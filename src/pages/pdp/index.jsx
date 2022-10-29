@@ -32,7 +32,7 @@ export default function Clinica() {
       <HeaderPage subtitle="Política de Privacidade" title="Termos." />
 
       <main className={`${styles.clinic} mainContainer`}>
-        <div data-aos="fade-up">
+       {/* <div data-aos="fade-up">
           <MyImage
             src="/images/loja1.jpg"
             alt="Política de Privacidade"
@@ -41,7 +41,7 @@ export default function Clinica() {
             left
             top
           />
-        </div>
+          </div>  */}
 
         <div className={styles.clinicDescription} data-aos="fade-up">
           <p>
