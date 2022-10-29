@@ -75,7 +75,7 @@ export const Footer = ({ children, link = "/" }) => {
       </footer>
 
       <p className={`${styles.copy}`}>
-        2022 © Eletro Santa Clara. Todos os direitos reservados.  <Link href="https://setfocus.vercel.app">
+        2022 © Eletro Santa Clara. Todos os direitos reservados.  <Link href="https://agenciasetfocus.vercel.app/">
                   <a target="_blank">
                   Desenvolvido por SetFocus Brasil  
                   </a>
