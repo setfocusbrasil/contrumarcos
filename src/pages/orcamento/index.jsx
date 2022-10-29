@@ -27,7 +27,7 @@ export default function Clinica() {
           content="eletro santa clara, materiais elétricos, média tensão,ferragens, alta tensão, tomada, interruptor, disjuntor, contator, para-raio, poste, transformador"
         />
         <meta name="author" content="Eletro Santa Clara" />
-        <script async src="//static.zotabox.com/b/7/b7502fb6f5f765b9614401000a1c1159/widgets.js"></script>
+        
 
       </Head>
 
