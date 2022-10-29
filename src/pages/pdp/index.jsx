@@ -29,7 +29,7 @@ export default function Clinica() {
         <meta name="author" content="Eletro Santa Clara" />
       </Head>
 
-      <HeaderPage subtitle="Política de Privacidade" title="Termos." />
+      <HeaderPage subtitle="Política de Privacidade" />
 
       <main className={`${styles.clinic} mainContainer`}>
        {/* <div data-aos="fade-up">
