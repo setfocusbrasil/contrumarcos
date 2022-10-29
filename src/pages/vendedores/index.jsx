@@ -30,7 +30,7 @@ export default function Tratamentos() {
       </Head>
 
       <div>
-        <HeaderPage subtitle="Nossos setores" title="Principais contatos." />
+        <HeaderPage subtitle="Contatos" />
       </div>
       <main className={`${styles.treatments} mainContainer`}>
 
