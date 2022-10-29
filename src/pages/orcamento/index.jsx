@@ -28,13 +28,13 @@ export default function Clinica() {
         />
         <meta name="author" content="Eletro Santa Clara" />
         <script async src="//static.zotabox.com/b/7/b7502fb6f5f765b9614401000a1c1159/widgets.js"></script>
-        
+
       </Head>
 
       <HeaderPage subtitle="Conheça nossa Empresa" title="Sobre." />
 
       <main className={`${styles.clinic} mainContainer`}>
-        <div data-aos="fade-up">
+        {/* <div data-aos="fade-up">
           <MyImage
             src="/images/loja1.jpg"
             alt="Frente da Loja"
@@ -44,7 +44,7 @@ export default function Clinica() {
           />
         </div>
 
-        {/*<div className={styles.clinicDescription} data-aos="fade-up">
+       <div className={styles.clinicDescription} data-aos="fade-up">
           <p>
           A Eletro Santa Clara foi fundada em Lençóis Paulista, no interior do estado de São Paulo, há mais de três décadas, com o principal objetivo de servir o cidadão lençoense com a mais completa loja de materiais elétricos da cidade. Essa visão inicial foi transformada com o tempo e o crescimento da loja, principalmente com a abertura de sua primeira filial, na Rodovia Osny Mateus. Pois agora somado aos preços baixos e atendimento de excelência, a facilidade de acesso foi mais um atrativo para clientes de toda a região.
           </p>
