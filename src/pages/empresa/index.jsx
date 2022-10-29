@@ -29,7 +29,7 @@ export default function Clinica() {
         <meta name="author" content="Eletro Santa Clara" />
       </Head>
 
-      <HeaderPage subtitle="Conheça nossa Empresa" title="Sobre." />
+      <HeaderPage subtitle="Conheça nossa Empresa" />
 
       <main className={`${styles.clinic} mainContainer`}>
         <div data-aos="fade-up">
