@@ -54,11 +54,14 @@ export default function Clinica() {
           </p>
           <p>
           Seu endereço de e-mail será utilizado para e-mail marketing e comunicados de atualização somente mediante sua autorização. Jamais iremos compartilhar seus dados pessoais com qualquer outra parte, salvo sob ordem judicial.
-Não iremos, em hipótese alguma, publicar ou compartilhar conteúdos utilizando seus perfis pessoais e empresarias de redes sociais.
-A Eletro Santa Clara utiliza servidores de alta tecnologia, os mais seguros do mundo. Utilizamos ainda uma das principais plataformas de segurança online do mundo, a Let’s Encrypt, que realiza inspeções diárias na Eletro Santa Clara para validar continuamente a segurança do sistema. Mesmo sabendo que não é possível garantir 100% de segurança contra eventuais invasores, trabalhamos diariamente para que isso jamais ocorra.
-Caso você queira cancelar o recebimento de nossos e-mails marketing, favor responder para o mesmo endereço que lhe enviou, solicitando o cancelamento.
-Para esclarecimento de dúvidas sobre este termo, você pode nos contatar pelo telefone +55 14 3269-1057, e pelo e-mail suporte@eletrosantaclara.com.br. Atendemos de 2ª a 6ª feira das 7h às 18h. A Eletro Santa Clara está localizada na Avenida Brasil 589 – Centro – Lençóis Paulista, SP
           </p>
+          <p>Não iremos, em hipótese alguma, publicar ou compartilhar conteúdos utilizando seus perfis pessoais e empresarias de redes sociais.</p>
+          <p>A Eletro Santa Clara utiliza servidores de alta tecnologia, os mais seguros do mundo. Utilizamos ainda uma das principais plataformas de segurança online do mundo, a Let’s Encrypt, que realiza inspeções diárias na Eletro Santa Clara para validar continuamente a segurança do sistema. Mesmo sabendo que não é possível garantir 100% de segurança contra eventuais invasores, trabalhamos diariamente para que isso jamais ocorra.</p>
+          <p>Caso você queira cancelar o recebimento de nossos e-mails marketing, favor responder para o mesmo endereço que lhe enviou, solicitando o cancelamento.</p>
+          <p>Para esclarecimento de dúvidas sobre este termo, você pode nos contatar pelo telefone +55 14 3269-1057, e pelo e-mail suporte@eletrosantaclara.com.br. Atendemos de 2ª a 6ª feira das 7h às 18h. A Eletro Santa Clara está localizada na Avenida Brasil 589 – Centro – Lençóis Paulista, SP</p>
+
+
+
         </div>
       </main>
 
