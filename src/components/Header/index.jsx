@@ -40,8 +40,8 @@ export const Header = () => {
               <Image
                 src="/icons/logo_transparente.png"
                 alt="Constru Marcos"
-                width="280"
-                height="118"
+                width="250"
+                height="98"
               />
             </a>
           </Link>
