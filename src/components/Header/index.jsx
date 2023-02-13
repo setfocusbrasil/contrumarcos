@@ -39,9 +39,9 @@ export const Header = () => {
             <a>
               <Image
                 src="/icons/logo_transparente.png"
-                alt="Eletro Santa Clara"
+                alt="Constru Marcos"
                 width="280"
-                height="124"
+                height="118"
               />
             </a>
           </Link>
