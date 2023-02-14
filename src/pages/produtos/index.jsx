@@ -29,7 +29,7 @@ export default function Tratamentos() {
       </Head>
 
       <div>
-        <HeaderPage subtitle="As melhores marcas" title="Produtos Certificados." />
+        <HeaderPage subtitle="Aproveite para conferir, também, a disponibilidade da nossa equipe!" title="Serviços Qualificados." />
       </div>
       <main className={`${styles.treatments} mainContainer`}>
 
@@ -41,10 +41,10 @@ export default function Tratamentos() {
             height="279"
             left
           />
-          <h3>Chuveiros</h3>
+          <h3>Escolas</h3>
           <div className={styles.description}>
             <p>
-            Para transformar os seus banhos em momentos de puro relaxamento e descanso dispomos de toda linha de chuveiros e duchas.
+            Agende um atendimento e conheça meu trabalho.
             </p>
           </div>
         </div>
@@ -55,14 +55,14 @@ export default function Tratamentos() {
         <div className={styles.treatmentsItem} data-aos="fade-up">
           <MyImage
             src="/images/prod_2.png"
-            alt="Fios e Cabos"
+            alt="Indústria"
             width="350"
             height="279"
           />
           <h3>Fios e Cabos</h3>
           <div className={styles.description}>
             <p>
-            Fios e cabos elétricos certificados pelo INMETRO. Garanta a segurança da sua obra!
+            Agende um atendimento e conheça nosso trabalho.
             </p>
             <p>
              
