@@ -121,7 +121,7 @@ export default function Home() {
 
           <div className={styles.aboutRightContent} data-aos="fade-up">
             <h3>
-              <strong2>Referência em Qualidade de Materiais Elétricos em</strong2> <strong>Lençóis Paulista e Região.</strong>
+              <strong2>Além disso, para proporcionar máxima qualidade aos clientes e oferecer o que há de melhor no segmento, conta com o auxílio de funcionários experientes e com </strong2> <strong>ótima qualificação.</strong>
             </h3>
             <p>
             
