@@ -92,7 +92,7 @@ Nossa missão é entregar qualidade e preço baixo para proporcionar máxima sat
             data-aos-delay="400"
           >
             <MyImage
-              src="/images/herostaclara.jpg"
+              src="/images/hero.jpg"
               alt="Paciente Sorrindo na clínica"
               width="440"
               height="510"
