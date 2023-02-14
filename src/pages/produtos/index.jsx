@@ -248,7 +248,7 @@ export default function Tratamentos() {
       </main>
 
       <section className={styles.images}>
-        <Title title="Material Elétrico é na Eletro Santa Clara" subtitle="Qualidade é Nosso Destaque" />
+        <Title title="Não precisa mais ficar procurando, serviço de excelência e qualidade é aqui!" subtitle="Qualidade é Nosso Destaque" />
 
         <ul className={`${styles.imagesContainer} mainContainer`}>
           <li data-aos="zoom-in-up">
