@@ -58,13 +58,12 @@ export default function Home() {
         <div className={`mainContainer ${styles.heroWrap}`}>
           <section className={styles.leftContent}>
             <h1 className="title" data-aos="fade-up">
-              Pinturas Comerciais, Rersidênciais e <strong>Industriais</strong>
+              Pinturas Comerciais, Residênciais e <strong>Industriais</strong>
             </h1>
 
           
             <p data-aos="fade-up" data-aos-delay="200">
-            A Eletro Santa Clara é uma empresa de comércio de material elétrico residencial, comercial e industrial que atende Lençóis Paulista e região.
-Nossa missão é entregar qualidade e preço baixo para proporcionar máxima satisfação aos nossos Clientes.
+            EMPRESA COMPROMETIDA COM A SATISFAÇÃO INTEGRAL DO CLIENTE
             </p>
            
   
