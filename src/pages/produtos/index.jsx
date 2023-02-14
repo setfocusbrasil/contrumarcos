@@ -59,7 +59,7 @@ export default function Tratamentos() {
             width="350"
             height="279"
           />
-          <h3>Fios e Cabos</h3>
+          <h3>Indústria</h3>
           <div className={styles.description}>
             <p>
             Agende um atendimento e conheça nosso trabalho.
@@ -79,7 +79,7 @@ export default function Tratamentos() {
             height="279"
             left
           />
-          <h3>Conduletes</h3>
+          <h3>Residêncial</h3>
           <div className={styles.description}>
             <p>
             Se é de conexão e condução que voê precisa, nós dispomos de toda linha de conduletes e acessórios.
@@ -97,7 +97,7 @@ export default function Tratamentos() {
             width="350"
             height="279"
           />
-          <h3>Disjuntores</h3>
+          <h3>Acabamentos</h3>
           <div className={styles.description}>
             <p>
             A palavra chave desde a linha residêncial até à Industra 4.0 é <strong2>Segurança</strong2>. Por isso dispomos de toda linha de disjuntores, disjuntor-motor, contatores e relês das mais conceituadas marcas do mercado.
