@@ -74,7 +74,7 @@ export default function Home() {
             >
               <Button
                 onClick={agendarConsulta}
-                link="https://wa.me/5514981189197"
+                link="https://wa.me/5514997096061"
               >
                 <img src="/icons/whatsIcon.svg" alt="whatsapp" />
                 Fale com nossos Vendedores

@@ -19,14 +19,14 @@ export const Footer = ({ children, link = "/" }) => {
           </Link>
 
           <div>
-            <h3>Eletro Santa Clara - Loja 1</h3>
+            <h3>ConstruMarcos</h3>
             <ul>
-              <li>(14) 3269-1057</li>
-              <li>vendas@eletrosantaclara.com.br</li>
+              <li>14 99709-6061</li>
+              <li></li>
               <li>Av. Brasil, 589- Centro</li>
               <li>Lençóis Paulista - SP</li>
               <li className={styles.social}>
-                <Link href="https://www.instagram.com/eletrosantaclara">
+                <Link href="">
                   <a target="_blank">
                     <Image
                       src="/icons/instaFooter.svg"
@@ -36,7 +36,7 @@ export const Footer = ({ children, link = "/" }) => {
                     />
                   </a>
                 </Link>
-                <Link href="https://www.facebook.com/eletrosantaclara/">
+                <Link href="">
                   <a target="_blank">
                     <Image
                       src="/icons/faceFooter.svg"
@@ -61,16 +61,16 @@ export const Footer = ({ children, link = "/" }) => {
           </div>
 
           <div>
-            <h3>Eletro Santa Clara - loja 2</h3>
-            <p> Rua Pastor Natalino Paulino, nº. 260, Vila Santa Cecília</p>
-            <p>Fone 14 3269.1717 - 14 98118.8248</p>
+            <h3></h3>
+            <p> </p>
+            <p></p>
           </div>
 
           <div>
             <h3>Atendimento</h3>
             <p>Seg - Sex: 07:00 - 18:00</p>
             <p>Sáb: até 12h - Dom: Fechado</p>
-            <p><Link href="https://eletrosantaclara.vercel.app/pdp">
+            <p><Link href="">
                   <a target="_blank">
                   Política de Privacidade  
                   </a>
@@ -80,7 +80,7 @@ export const Footer = ({ children, link = "/" }) => {
       </footer>
 
       <p className={`${styles.copy}`}>
-        2022 © Eletro Santa Clara. Todos os direitos reservados.  <Link href="https://agenciasetfocus.vercel.app/">
+        2023 © ConstruMarcos. Todos os direitos reservados.  <Link href="https://agenciasetfocus.vercel.app/">
                   <a target="_blank">
                   Desenvolvido por SetFocus Brasil  
                   </a>

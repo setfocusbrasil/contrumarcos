@@ -16,7 +16,7 @@ export const Header = () => {
     gtag.event({
       action: "agendar_consulta_cabeçalho",
       category: "marcar_consulta_whatsapp_cabeçalho",
-      label: "Orçamento pelo Whatsapp",
+      label: "Chame pelo Whatsapp",
       value: "Marcar consulta",
     });
   }
@@ -26,7 +26,7 @@ export const Header = () => {
     gtag.event({
       action: "agendar_consulta_cabeçalho",
       category: "marcar_consulta_whatsapp_cabeçalho",
-      label: "Fale com nossos vendedores",
+      label: "Chame no Whatsapp",
       value: "Fale Conosco",
     });
   }
@@ -65,25 +65,25 @@ export const Header = () => {
             <Link href="/produtos">
               <a>Serviços</a>
             </Link>
-            <Link href="/empresa">
+            <Link href="/">
               <a>A Empresa</a>
             </Link>
             
-            <Link href="/vendedores">
+            <Link href="/">
               <a>Contato</a>
             </Link>
 
-            <Link href="/orcamento">
+            <Link href="/">
               <a>Orçamento</a>
             </Link>
- 
+            
           </nav>
 
           <div className={styles.btnAgendar}>
             <Button
               dark
               onClick={agendarConsulta}
-              link="https://wa.me/5514981189197"
+              link="https://wa.me/5514997096061"
             >
                <img src="/icons/whatsIcon.svg" alt="whatsapp" />
               Fale com nossos vendedores
@@ -110,25 +110,25 @@ export const Header = () => {
               </Link>
             </li>
             <li onClick={closeMenu}>
-              <Link href="/empresa">
+              <Link href="/">
                 <a>A Empresa</a>
               </Link>
             </li>
 
             <li onClick={closeMenu}>
-              <Link href="/vendedores">
+              <Link href="/">
                 <a>Contato</a>
               </Link>
             </li>
           
             <li onClick={closeMenu}>
-              <Link href="/orcamento#zbwid-1579615">
+              <Link href="/">
                 <a>Orçamento</a>
               </Link>
             </li>
             <li onClick={agendarConsultaMenu}>
-              <Link href="https://wa.me/5514981189197">
-                <a target="_blank">Fale com um vendedor</a>
+              <Link href="https://wa.me/5514997096061">
+                <a target="_blank">Fale Conosco</a>
               </Link>
             </li>
           </ul>
