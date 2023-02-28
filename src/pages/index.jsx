@@ -77,7 +77,7 @@ export default function Home() {
                 link="https://wa.me/5514997096061"
               >
                 <img src="/icons/whatsIcon.svg" alt="whatsapp" />
-                Fale com nossos Vendedores
+                Fale Conosco
               </Button>
               {/* <span>
                 Ou nos ligue: <strong>(14) 3264-9999</strong>
